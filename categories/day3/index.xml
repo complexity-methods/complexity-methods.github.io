@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day3 | Complexity Methods for Behavioural Science</title>
+    <link>/categories/day3/</link>
+      <atom:link href="/categories/day3/index.xml" rel="self" type="application/rss+xml" />
+    <description>Day3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Day3</title>
+      <link>/categories/day3/</link>
+    </image>
+    
+    <item>
+      <title>Network Topology and Early Warning Signals</title>
+      <link>/courses/helsinki-workshop-2020/day3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day3/</guid>
+      <description>&lt;h2 id=&#34;todays-topics&#34;&gt;Today&#39;s Topics:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The idiographic system method in psychopathology
+&lt;ul&gt;
+&lt;li&gt;Process monitoring (experience sampling)&lt;/li&gt;
+&lt;li&gt;Multivariate time series&lt;/li&gt;
+&lt;li&gt;Dynamic complexity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Advanced Topics:
+&lt;ul&gt;
+&lt;li&gt;(Multiplex) Recurrence networks&lt;/li&gt;
+&lt;li&gt;Convergent cross-mapping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-table-for-day-3&#34;&gt;Time table for Day 3&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;09.15-10.15&lt;/td&gt;
+&lt;td&gt;Dynamic complexity as an early warning signal in psychopathology&lt;/td&gt;
+&lt;td&gt;Multivariate time series, Idiographic science&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.15-10.30&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30-11:45&lt;/td&gt;
+&lt;td&gt;Advanced Topics&lt;/td&gt;
+&lt;td&gt;Multiplex Recurrence Networks, Convergent cross-mapping&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
