@@ -262,6 +262,11 @@
   </url>
   
   <url>
+    <loc>/book/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/courses/helsinki-workshop-2020/assignments/assignments_d1_1_uvsystems/</loc>
     <priority>0</priority>
   </url>
