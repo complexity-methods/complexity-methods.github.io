@@ -39,6 +39,4 @@ vignettes/*.pdf
 .Renviron
 .DS_Store
 
-.key
-courses/Helsinki-Workshop-2020/slides/Helsinki2020_day1_3_scaling.key
 *.key
