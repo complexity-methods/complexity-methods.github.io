@@ -14,9 +14,9 @@
     
     <item>
       <title>Introduction to the mathematics of change</title>
-      <link>/courses/dynamics-of-complex-systems-rmbs-course/session1/</link>
+      <link>/courses/dynamics-of-complex-systems/session1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/courses/dynamics-of-complex-systems-rmbs-course/session1/</guid>
+      <guid>/courses/dynamics-of-complex-systems/session1/</guid>
       <description>&lt;h2 id=&#34;suggested-literature&#34;&gt;Suggested literature&lt;/h2&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
 </description>
@@ -27,7 +27,16 @@
       <link>/courses/helsinki-workshop-2020/day1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/helsinki-workshop-2020/day1/</guid>
-      <description>&lt;h2 id=&#34;time-table-for-day-1&#34;&gt;Time table for Day 1&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;additional-literature-for-the-course&#34;&gt;Additional literature for the course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nsf.gov/pubs/2005/nsf05057/nmbs/nmbs.jsp&#34;&gt;Tutorials in Contemporary Nonlinear Methods for the Behavioural Sciences&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/1922136&#34;&gt;Section II (p.6): DYNAMIC PATTERN FORMATION IN PHYSICAL, BIOLOGICAL, AND COMPUTATIONAL SYSTEMS&lt;/a&gt; of Thelen, E., &amp;amp; Ulrich, B. D. (1991). Hidden skills: A dynamic systems analysis of treadmill stepping during the first year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-table-for-day-1&#34;&gt;Time table for Day 1&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -94,7 +103,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;suggested-literature&#34;&gt;Suggested literature&lt;/h2&gt;
 </description>
     </item>
     
