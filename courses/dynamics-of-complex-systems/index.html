@@ -21,7 +21,7 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="Fred Hasselman">
 
   
   
@@ -247,6 +247,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
 
 
   
@@ -654,7 +684,7 @@
   
 
 <p class="edit-page">
-  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/Dynamics-of-Complex-Systems/_index.md">
+  <a href="https://github.com/complexity-methods/complexity-methods.github.io/edit/master/content/courses/Dynamics-of-Complex-Systems/_index.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>

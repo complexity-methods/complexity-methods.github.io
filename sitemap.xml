@@ -66,12 +66,12 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>/publication_types/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>/authors/admin/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -173,6 +173,38 @@
   <url>
     <loc>/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/annab/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/annal/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/fred/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/gerrieke/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/lisette/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/maarten/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/merlijn/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/ralf/</loc>
   </url>
   
   <url>
