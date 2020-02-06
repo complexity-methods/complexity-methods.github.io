@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The Complex Systems Approach to Behavioural Science</title>
-  <meta name="description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <title>Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science</title>
+  <meta name="description" content="Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta property="og:title" content="Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/foundations.png" />
-  <meta property="og:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta property="og:description" content="Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta name="twitter:title" content="Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science" />
   
-  <meta name="twitter:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta name="twitter:description" content="Chapter 3 Introduction to the Mathematics of Change | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="twitter:image" content="images/foundations.png" />
 
 <meta name="author" content="Fred Hasselman" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="the-complex-systems-approach.html"/>
+<link rel="prev" href="study-materials-and-resources.html"/>
+<link rel="next" href="its-a-line-its-a-plane.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -365,31 +365,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The Complex Systems Approach to Behavioural Science</h1>
-<p class="author"><em>Fred Hasselman</em></p>
-<p class="date"><em>2019</em></p>
-</div>
-<div id="course-guide" class="section level1 unnumbered">
-<h1><strong>Course Guide</strong></h1>
-<p>This is a companion book for a number of courses listed on this website: <a href="https://complexity-methods.github.io" class="uri">https://complexity-methods.github.io</a> :</p>
+<div id="introduction-to-the-mathematics-of-change" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> <strong>Introduction to the Mathematics of Change</strong></h1>
+<p>The simplest non-trivial <em>iterative change process</em> can be described by the following <em>difference equation</em>:</p>
+<p><span class="math display">\[ Y_{t+1} = Y_{t=0} + a*Y_t \]</span></p>
+<p>The equation describes the way in which the value of <span class="math inline">\(Y\)</span> changes <a href="https://en.wikipedia.org/wiki/Discrete_time_and_continuous_time">between two adjacent, <strong>discrete</strong> moments in time</a>
+(hence the term <a href="https://en.wikipedia.org/wiki/Recurrence_relation">difference equation, or recurrence relation</a>). There are two parameters resembling an intercept and a slope:</p>
+<ol style="list-style-type: decimal">
+<li>The starting value <span class="math inline">\(Y_0\)</span> at <span class="math inline">\(t=0\)</span>, also called the <em>starting value</em>, or the <em>initial conditions</em>.</li>
+<li>A rule for incrementing time, here the change in <span class="math inline">\(Y\)</span> takes place over a discrete time step of 1: <span class="math inline">\(t+1\)</span>.</li>
+</ol>
+<p>The values taken on by variable <span class="math inline">\(Y\)</span> are considered to represent the states quantifiable observable alternative ways to describe the change of states :</p>
 <ul>
-<li>Research Master Behavioural Science curriculum: <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/bs/sow-bs044-dynamics-complex-systems/"><strong>Dynamics of Complex Systems</strong></a></li>
-<li>Radboud University Summerschool: <a href="https://www.ru.nl/radboudsummerschool/courses/2020/complexity-methods-behavioural-science-toolbox/"><strong>Complexity Methods for Behavioural Science: A toolbox for studying change.</strong></a></li>
-<li>Shorter workshops, for example: <a href="https://complexity-methods.github.io/courses/helsinki-workshop-2020/">2.5 day course in Helsinki 2020</a></li>
+<li>A dynamical rule describing the propagation of the states of a system observable measured by the values of variable <code>Y</code> through discrete time.</li>
+<li>A dynamic law describing the time-evolution of the states of a system observable measured by the variable <code>Y</code>.</li>
 </ul>
-<p></br>
-</br></p>
-<p><img src="images/foundations.png" width="99%" style="display: block; margin: auto;" />
-<em>Image from <a href="http://www.nwo.nl/en/about-nwo/media/publications/ew/paper-grip-on-complexity.html">Grip on Complexity</a></em></p>
+<p>These descriptions all refer to the change processes that govern system observables (properties of dynamical systems that can be observed through measurement).</p> 
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="the-complex-systems-approach.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="study-materials-and-resources.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="its-a-line-its-a-plane.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

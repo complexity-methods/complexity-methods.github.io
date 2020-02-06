@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The Complex Systems Approach to Behavioural Science</title>
-  <meta name="description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <title>3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science</title>
+  <meta name="description" content="3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta property="og:title" content="3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/foundations.png" />
-  <meta property="og:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta property="og:description" content="3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta name="twitter:title" content="3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science" />
   
-  <meta name="twitter:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta name="twitter:description" content="3.5 Modeling interactions between processes and agents | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="twitter:image" content="images/foundations.png" />
 
 <meta name="author" content="Fred Hasselman" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="the-complex-systems-approach.html"/>
+<link rel="prev" href="numerical-integration-to-simulate-continuous-time.html"/>
+<link rel="next" href="basic-time-series-analysis.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -365,31 +365,51 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The Complex Systems Approach to Behavioural Science</h1>
-<p class="author"><em>Fred Hasselman</em></p>
-<p class="date"><em>2019</em></p>
-</div>
-<div id="course-guide" class="section level1 unnumbered">
-<h1><strong>Course Guide</strong></h1>
-<p>This is a companion book for a number of courses listed on this website: <a href="https://complexity-methods.github.io" class="uri">https://complexity-methods.github.io</a> :</p>
+<div id="advmodels" class="section level2">
+<h2><span class="header-section-number">3.5</span> <strong>Modeling interactions between processes and agents</strong></h2>
+<div id="the-competetive-lottka-volterra-equations" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> The Competetive Lottka-Volterra Equations</h3>
+<p>The coupled predator-prey dynamics in the previous assignment are not a very realistic model of an actual ecological system. Both equations are exponential growth functions, but <strong>R</strong>abbits for example, also have to eat! One way to increase realism is to consider coupled logistic growth by introducing a carrying capacity.</p>
 <ul>
-<li>Research Master Behavioural Science curriculum: <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/bs/sow-bs044-dynamics-complex-systems/"><strong>Dynamics of Complex Systems</strong></a></li>
-<li>Radboud University Summerschool: <a href="https://www.ru.nl/radboudsummerschool/courses/2020/complexity-methods-behavioural-science-toolbox/"><strong>Complexity Methods for Behavioural Science: A toolbox for studying change.</strong></a></li>
-<li>Shorter workshops, for example: <a href="https://complexity-methods.github.io/courses/helsinki-workshop-2020/">2.5 day course in Helsinki 2020</a></li>
+<li>Follow the link to the <a href="https://en.wikipedia.org/wiki/Competitive_Lotka???Volterra_equations">Wiki page</a> and try to model the system!</li>
 </ul>
-<p></br>
-</br></p>
-<p><img src="images/foundations.png" width="99%" style="display: block; margin: auto;" />
-<em>Image from <a href="http://www.nwo.nl/en/about-nwo/media/publications/ew/paper-grip-on-complexity.html">Grip on Complexity</a></em></p>
+<blockquote>
+<p>This is what <em>interaction dynamics</em> refers to, modeling mutual dependiencies using the <code>if ... then</code> conditional rules isn’t really about interaction, or coupling between processes.</p>
+</blockquote>
 </div>
+<div id="predator-prey-and-other-dynamics-as-agent-based-models" class="section level3">
+<h3><span class="header-section-number">3.5.2</span> Predator-Prey (and other) dynamics as Agent Based Models</h3>
+<p>Agent-Based models are an expansion of the idea of “connected growers” that includes a spatial location of the things that is subject to change over time.</p>
+<p>Have a look at some of the <a href="http://ccl.northwestern.edu/netlogo/">NETlogo</a> demo’s:</p>
+<ul>
+<li><a href="http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Rabbits%20Grass%20Weeds.nlogo">Rabbits Weeds Grass</a></li>
+<li><a href="http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Wolf%20Sheep%20Predation.nlogo">Wolf Sheep Grass</a></li>
+</ul>
+</div>
+<div id="the-dynamic-field-model" class="section level3">
+<h3><span class="header-section-number">3.5.3</span> The dynamic field model</h3>
+<p>Probably the most impressive modelling example in developmental psychology is the Dynamic Field Model for infant perservative reaching, also known as the <em>A-not-B error</em>:</p>
+<p><a href="https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/dynamics-of-embodiment-a-field-theory-of-infant-perseverative-reaching/1C2802AA1C508444DD6D3C3289141CD8#">Thelen, E., Schöner, G., Scheier, C., &amp; Smith, L. (2001). The dynamics of embodiment: A field theory of infant perseverative reaching. Behavioral and Brain Sciences, 24(1), 1-34. doi:10.1017/S0140525X01003910</a></p>
+<p>The model makes some very interesting predictions that have been confirmed and it has been generalized to other phenomena and scientific disciplines as well</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1364661303001566">Smith, L. B., &amp; Thelen, E. (2003). Development as a dynamic system. Trends in cognitive sciences, 7(8), 343-348.</a></p>
+<p><a href="https://www.scribd.com/document/119411540/Using-Dynamic-Field-Theory-to-Rethink-Infant-Habituation">Schöner, G., &amp; Thelen, E. (2006). Using dynamic field theory to rethink infant habituation. Psychological review, 113(2), 273.</a></p>
+<p><a href="http://eprints.lancs.ac.uk/71113/1/Proceedings_final.pdf">TWOMEY, K. E., &amp; HORST, J. S. (2014). TESTING A DYNAMIC NEURAL FIELD MODEL OF CHILDREN’S CATEGORY LABELLING. In Computational Models of Cognitive Processes: Proceedings of the 13th Neural Computation and Psychology Workshop (pp. 83-94).</a></p>
+<p>You can learn about it on the <a href="http://www.dynamicfieldtheory.org">Dynamic Field Theory</a> website centered around the book:</p>
+<p><a href="http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199300563.001.0001/acprof-9780199300563">Schöner, G., &amp; Spencer, J. (2015). Dynamic thinking: A primer on dynamic field theory. Oxford University Press.</a></p>
+
+</div>
+</div>
+<!-- </div> -->
+
+
+
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="the-complex-systems-approach.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="numerical-integration-to-simulate-continuous-time.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="basic-time-series-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

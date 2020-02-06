@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>The Complex Systems Approach to Behavioural Science</title>
-  <meta name="description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <title>3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science</title>
+  <meta name="description" content="3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta property="og:title" content="3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="images/foundations.png" />
-  <meta property="og:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta property="og:description" content="3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="The Complex Systems Approach to Behavioural Science" />
+  <meta name="twitter:title" content="3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science" />
   
-  <meta name="twitter:description" content="The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta name="twitter:description" content="3.4 Numerical integration to simulate continuous time | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
   <meta name="twitter:image" content="images/foundations.png" />
 
 <meta name="author" content="Fred Hasselman" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="the-complex-systems-approach.html"/>
+<link rel="prev" href="implementing-iterative-functions.html"/>
+<link rel="next" href="advmodels.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -365,31 +365,159 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">The Complex Systems Approach to Behavioural Science</h1>
-<p class="author"><em>Fred Hasselman</em></p>
-<p class="date"><em>2019</em></p>
+<div id="numerical-integration-to-simulate-continuous-time" class="section level2">
+<h2><span class="header-section-number">3.4</span> <strong>Numerical integration to simulate continuous time</strong></h2>
+<p>In order to ‘solve’ a differential equation for continuous time using a method of numerical integration, one could code it like in the spreadsheet assignment below. For <code>R</code> and <code>Matlab</code> there are so-called <em>solvers</em> available, functions that will do the integration for you. For <code>R</code> look at the <a href="http://desolve.r-forge.r-project.org">Examples in package <code>deSolve</code></a>.</p>
+<div id="eulers-method-and-more" class="section level3 unnumbered">
+<h3>Euler’s method and more…</h3>
+<p>The result of applying a method of numerical integration is called a <strong>numerical solution</strong> of the differential equation. The <strong>analytical solution</strong> is the equation which will give you a value of <span class="math inline">\(Y\)</span> for any point in time, given an initial value <span class="math inline">\(Y_0\)</span>. Systems which have an analytical solution can be used to test the accuracy of <strong>numerical solutions</strong>.</p>
 </div>
-<div id="course-guide" class="section level1 unnumbered">
-<h1><strong>Course Guide</strong></h1>
-<p>This is a companion book for a number of courses listed on this website: <a href="https://complexity-methods.github.io" class="uri">https://complexity-methods.github.io</a> :</p>
-<ul>
-<li>Research Master Behavioural Science curriculum: <a href="https://www.ru.nl/courseguides/socsci/courses-osiris/bs/sow-bs044-dynamics-complex-systems/"><strong>Dynamics of Complex Systems</strong></a></li>
-<li>Radboud University Summerschool: <a href="https://www.ru.nl/radboudsummerschool/courses/2020/complexity-methods-behavioural-science-toolbox/"><strong>Complexity Methods for Behavioural Science: A toolbox for studying change.</strong></a></li>
-<li>Shorter workshops, for example: <a href="https://complexity-methods.github.io/courses/helsinki-workshop-2020/">2.5 day course in Helsinki 2020</a></li>
-</ul>
-<p></br>
-</br></p>
-<p><img src="images/foundations.png" width="99%" style="display: block; margin: auto;" />
-<em>Image from <a href="http://www.nwo.nl/en/about-nwo/media/publications/ew/paper-grip-on-complexity.html">Grip on Complexity</a></em></p>
+<div id="analytical-solution" class="section level3 unnumbered">
+<h3>Analytical solution</h3>
+<p>Remember that the analytical solution for the logistic equation is:</p>
+<p><span class="math display">\[
+Y(t)  =  \frac{K * Y_0}{Y_0 + \left(K - Y_0 \right) * e^{-r*t} }
+\]</span>
+This can be ‘simplified’ to</p>
+<p><span class="math display">\[
+Y(t)  =  \frac{K}{1 + \left(\frac{K}{Y_0-1} \right) * e^{-r*t} }
+\]</span></p>
+<p>If we want to know the growth level <span class="math inline">\(Y_t\)</span> at <span class="math inline">\(t=10\)</span>, with <span class="math inline">\(Y_0=.0001\)</span>, <span class="math inline">\(r=1.1\)</span> and <span class="math inline">\(K=4\)</span>, we can just <code>fill it in</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="co"># Define a function for the solution</span></a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">logSol &lt;-<span class="st"> </span><span class="cf">function</span>(Y0, r, K, t){K<span class="op">/</span>(<span class="dv">1</span><span class="op">+</span>(K<span class="op">/</span>Y0<span class="dv">-1</span>)<span class="op">*</span><span class="kw">exp</span>(<span class="op">-</span>r<span class="op">*</span>t))}</a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="co"># Call the function</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="kw">logSol</span>(<span class="dt">Y0=</span>.<span class="dv">0001</span>, <span class="dt">r=</span><span class="fl">1.1</span>, <span class="dt">K=</span><span class="dv">4</span>, <span class="dt">t=</span><span class="dv">10</span>)</a></code></pre></div>
+<pre><code>## [1] 2.398008</code></pre>
+<p>We can pass a vector of time points to create the exact solution, the same we would get if we were to iterate the differential/difference equation.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Plot from t=1 to t=100</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="kw">plot</span>(<span class="kw">logSol</span>(<span class="dt">Y0=</span>.<span class="dv">0001</span>, <span class="dt">r=</span><span class="fl">1.1</span>, <span class="dt">K=</span><span class="dv">4</span>, <span class="dt">t=</span><span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">20</span>)), <span class="dt">type =</span> <span class="st">&quot;b&quot;</span>, </a>
+<a class="sourceLine" id="cb7-3" data-line-number="3">     <span class="dt">ylab =</span> <span class="kw">expression</span>(Y[t]), <span class="dt">xlab =</span> <span class="st">&quot;t&quot;</span>)</a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="co"># Plot t=10 in red</span></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="kw">points</span>(<span class="dv">10</span>,<span class="kw">logSol</span>(<span class="dt">Y0=</span>.<span class="dv">0001</span>, <span class="dt">r=</span><span class="fl">1.1</span>, <span class="dt">K=</span><span class="dv">4</span>, <span class="dt">t=</span><span class="dv">10</span>), <span class="dt">col=</span><span class="st">&quot;red&quot;</span>, <span class="dt">pch=</span><span class="dv">16</span>)</a></code></pre></div>
+<p><img src="CSA-Book_files/figure-html/unnamed-chunk-14-1.png" width="99%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="numerical-solution-discrete" class="section level3 unnumbered">
+<h3>Numerical solution (discrete)</h3>
+<p>If we would iterate the differential equation …</p>
+<p><span class="math display">\[
+\frac{dY}{dt} = Y_t * (1 + r - r * \frac{Y_t}{K})
+\]</span></p>
+<p>… as if it were a difference equation, we are <em>not</em> simulating continuous time, but a discrete time version of the model:</p>
+<p><span class="math display">\[
+Y_{i+1} = Y_i * (1 + r - r * \frac{Y_i}{K})
+\]</span></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">logIter &lt;-<span class="st">  </span><span class="cf">function</span>(Y0,r,K,t){</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2">  N &lt;-<span class="st"> </span><span class="kw">length</span>(t)</a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">  Y &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(Y0, <span class="kw">rep</span>(<span class="ot">NA</span>,N<span class="dv">-2</span>)))</a>
+<a class="sourceLine" id="cb8-4" data-line-number="4">  <span class="kw">sapply</span>(<span class="kw">seq_along</span>(Y), <span class="cf">function</span>(t){ Y[[t<span class="op">+</span><span class="dv">1</span>]] &lt;&lt;-<span class="st"> </span>Y[t] <span class="op">*</span><span class="st"> </span>(<span class="dv">1</span> <span class="op">+</span><span class="st"> </span>r <span class="op">-</span><span class="st"> </span>r <span class="op">*</span><span class="st"> </span>Y[t] <span class="op">/</span><span class="st"> </span>K)})</a>
+<a class="sourceLine" id="cb8-5" data-line-number="5">  }</a>
+<a class="sourceLine" id="cb8-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb8-7" data-line-number="7"><span class="co"># Plot from t=1 to t=100</span></a>
+<a class="sourceLine" id="cb8-8" data-line-number="8"><span class="kw">plot</span>(<span class="kw">logIter</span>(<span class="dt">Y0=</span>.<span class="dv">0001</span>, <span class="dt">r=</span><span class="fl">1.1</span>, <span class="dt">K=</span><span class="dv">4</span>, <span class="dt">t=</span><span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">20</span>)), <span class="dt">type =</span> <span class="st">&quot;b&quot;</span>, </a>
+<a class="sourceLine" id="cb8-9" data-line-number="9">     <span class="dt">ylab =</span> <span class="kw">expression</span>(Y[t]), <span class="dt">xlab =</span> <span class="st">&quot;t&quot;</span>)</a>
+<a class="sourceLine" id="cb8-10" data-line-number="10"><span class="co"># Plot t=10 in red</span></a>
+<a class="sourceLine" id="cb8-11" data-line-number="11"><span class="kw">points</span>(<span class="dv">10</span>,<span class="kw">logSol</span>(<span class="dt">Y0=</span>.<span class="dv">0001</span>, <span class="dt">r=</span><span class="fl">1.1</span>, <span class="dt">K=</span><span class="dv">4</span>, <span class="dt">t=</span><span class="dv">10</span>), <span class="dt">col=</span><span class="st">&quot;red&quot;</span>, <span class="dt">pch=</span><span class="dv">16</span>)</a></code></pre></div>
+<p><img src="CSA-Book_files/figure-html/unnamed-chunk-15-1.png" width="99%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="euler-vs.runge-kutta" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Euler vs. Runge-Kutta</h3>
+<p>The method developped by Runge and Kutta takes a harmonic mean over a number of points, R-K4 takes 4 points, R-K6 takes 6, <a href="https://en.wikipedia.org/wiki/Runge–Kutta_methods">but there are many more variants</a>.</p>
+<p>Here’s an exampkle with <strong>Predator-Prey dynamics</strong> comparing Euler’s method to R-K4.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">library</span>(plyr)</a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="kw">library</span>(tidyverse)</a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="kw">library</span>(lattice)</a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"></a>
+<a class="sourceLine" id="cb9-5" data-line-number="5"><span class="co"># Lotka-Volterra Euler</span></a>
+<a class="sourceLine" id="cb9-6" data-line-number="6">lvEuler &lt;-<span class="st"> </span><span class="cf">function</span>(R0,F0,N,a,b,c,d,h){</a>
+<a class="sourceLine" id="cb9-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb9-8" data-line-number="8">  <span class="co"># Init vector</span></a>
+<a class="sourceLine" id="cb9-9" data-line-number="9">  Ra &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(R0, <span class="kw">rep</span>(<span class="ot">NA</span>,N<span class="dv">-1</span>)))</a>
+<a class="sourceLine" id="cb9-10" data-line-number="10">  Fx &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(F0, <span class="kw">rep</span>(<span class="ot">NA</span>,N<span class="dv">-1</span>)))</a>
+<a class="sourceLine" id="cb9-11" data-line-number="11"></a>
+<a class="sourceLine" id="cb9-12" data-line-number="12">  <span class="cf">for</span>(t <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>N){</a>
+<a class="sourceLine" id="cb9-13" data-line-number="13">  <span class="co"># Euler numerical solution of the predator-prey model</span></a>
+<a class="sourceLine" id="cb9-14" data-line-number="14">  Ra[t<span class="op">+</span><span class="dv">1</span>] &lt;-<span class="st"> </span>Ra[t] <span class="op">+</span><span class="st"> </span>(a <span class="op">-</span><span class="st"> </span>b <span class="op">*</span><span class="st"> </span>Fx[t]) <span class="op">*</span><span class="st"> </span>Ra[t] <span class="op">*</span><span class="st"> </span>h</a>
+<a class="sourceLine" id="cb9-15" data-line-number="15">  Fx[t<span class="op">+</span><span class="dv">1</span>] &lt;-<span class="st"> </span>Fx[t] <span class="op">+</span><span class="st"> </span>(c <span class="op">*</span><span class="st"> </span>Ra[t] <span class="op">-</span><span class="st"> </span>d) <span class="op">*</span><span class="st"> </span>Fx[t] <span class="op">*</span><span class="st"> </span>h</a>
+<a class="sourceLine" id="cb9-16" data-line-number="16">  }</a>
+<a class="sourceLine" id="cb9-17" data-line-number="17">  </a>
+<a class="sourceLine" id="cb9-18" data-line-number="18">  <span class="kw">return</span>(<span class="kw">data.frame</span>(<span class="dt">time=</span><span class="dv">1</span><span class="op">:</span><span class="kw">NROW</span>(Ra),<span class="dt">Ra=</span>Ra,<span class="dt">Fx=</span>Fx,<span class="dt">method=</span><span class="st">&quot;Euler&quot;</span>))</a>
+<a class="sourceLine" id="cb9-19" data-line-number="19">}</a>
+<a class="sourceLine" id="cb9-20" data-line-number="20"></a>
+<a class="sourceLine" id="cb9-21" data-line-number="21"><span class="co"># Lotka-Volterra Runge Kutta 4</span></a>
+<a class="sourceLine" id="cb9-22" data-line-number="22">lvRK4 &lt;-<span class="st"> </span><span class="cf">function</span>(R0,F0,N,a,b,c,d,h){</a>
+<a class="sourceLine" id="cb9-23" data-line-number="23"></a>
+<a class="sourceLine" id="cb9-24" data-line-number="24">  <span class="co"># Init vector</span></a>
+<a class="sourceLine" id="cb9-25" data-line-number="25">  Ra &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(R0, <span class="kw">rep</span>(<span class="ot">NA</span>,N<span class="dv">-1</span>)))</a>
+<a class="sourceLine" id="cb9-26" data-line-number="26">  Fx &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(F0, <span class="kw">rep</span>(<span class="ot">NA</span>,N<span class="dv">-1</span>)))</a>
+<a class="sourceLine" id="cb9-27" data-line-number="27"></a>
+<a class="sourceLine" id="cb9-28" data-line-number="28">  <span class="cf">for</span>(t <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>N){</a>
+<a class="sourceLine" id="cb9-29" data-line-number="29">  <span class="co"># RK4 numerical solution of the predator-prey model</span></a>
+<a class="sourceLine" id="cb9-30" data-line-number="30">  k1_R=(a <span class="op">-</span><span class="st"> </span>b <span class="op">*</span><span class="st"> </span>Fx[t]) <span class="op">*</span><span class="st"> </span>Ra[t]</a>
+<a class="sourceLine" id="cb9-31" data-line-number="31">  k1_F=(c <span class="op">*</span><span class="st"> </span>Ra[t] <span class="op">-</span><span class="st"> </span>d) <span class="op">*</span><span class="st"> </span>Fx[t]</a>
+<a class="sourceLine" id="cb9-32" data-line-number="32"></a>
+<a class="sourceLine" id="cb9-33" data-line-number="33">  k2_R=(a <span class="op">-</span><span class="st"> </span>b <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k1_F<span class="op">/</span><span class="dv">2</span>)) <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k1_R<span class="op">/</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb9-34" data-line-number="34">  k2_F=(c <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k1_R<span class="op">/</span><span class="dv">2</span>) <span class="op">-</span><span class="st"> </span>d) <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k1_F<span class="op">/</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb9-35" data-line-number="35"></a>
+<a class="sourceLine" id="cb9-36" data-line-number="36">  k3_R=(a <span class="op">-</span><span class="st"> </span>b <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k2_F<span class="op">/</span><span class="dv">2</span>)) <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k2_R<span class="op">/</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb9-37" data-line-number="37">  k3_F=(c <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k2_R<span class="op">/</span><span class="dv">2</span>) <span class="op">-</span><span class="st"> </span>d) <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k2_F<span class="op">/</span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb9-38" data-line-number="38"></a>
+<a class="sourceLine" id="cb9-39" data-line-number="39">  k4_R=(a <span class="op">-</span><span class="st"> </span>b <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k3_F)) <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k3_R)</a>
+<a class="sourceLine" id="cb9-40" data-line-number="40">  k4_F=(c <span class="op">*</span><span class="st"> </span>(Ra[t]<span class="op">+</span>h<span class="op">*</span>k3_R) <span class="op">-</span><span class="st"> </span>d) <span class="op">*</span><span class="st"> </span>(Fx[t]<span class="op">+</span>h<span class="op">*</span>k3_F)</a>
+<a class="sourceLine" id="cb9-41" data-line-number="41"></a>
+<a class="sourceLine" id="cb9-42" data-line-number="42">  <span class="co"># Iterative process</span></a>
+<a class="sourceLine" id="cb9-43" data-line-number="43">  Ra[t<span class="op">+</span><span class="dv">1</span>] &lt;-<span class="st"> </span>Ra[t] <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span><span class="op">/</span><span class="dv">6</span>)<span class="op">*</span>h<span class="op">*</span>(k1_R<span class="op">+</span><span class="dv">2</span><span class="op">*</span>k2_R<span class="op">+</span><span class="dv">2</span><span class="op">*</span>k3_R<span class="op">+</span>k4_R)</a>
+<a class="sourceLine" id="cb9-44" data-line-number="44">  Fx[t<span class="op">+</span><span class="dv">1</span>] &lt;-<span class="st"> </span>Fx[t] <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span><span class="op">/</span><span class="dv">6</span>)<span class="op">*</span>h<span class="op">*</span>(k1_F<span class="op">+</span><span class="dv">2</span><span class="op">*</span>k2_F<span class="op">+</span><span class="dv">2</span><span class="op">*</span>k3_F<span class="op">+</span>k4_F)</a>
+<a class="sourceLine" id="cb9-45" data-line-number="45">  }</a>
+<a class="sourceLine" id="cb9-46" data-line-number="46">  </a>
+<a class="sourceLine" id="cb9-47" data-line-number="47">  <span class="kw">return</span>(<span class="kw">data.frame</span>(<span class="dt">time=</span><span class="dv">1</span><span class="op">:</span><span class="kw">NROW</span>(Ra),<span class="dt">Ra=</span>Ra,<span class="dt">Fx=</span>Fx,<span class="dt">method=</span><span class="st">&quot;RK4&quot;</span>))</a>
+<a class="sourceLine" id="cb9-48" data-line-number="48">}</a></code></pre></div>
+<p>Now that we have the fuctions, we’ll plot the numerical solutions for the same set of parameters. The continuous mathematics (= if you do some calculations to find the fixed points of the system) ensure us that the system should be in an equilibrium state in which the populations keep going around in the same cycle of growth and collapse. Let’s see what happens…</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="co"># Parameters</span></a>
+<a class="sourceLine" id="cb10-2" data-line-number="2">N  &lt;-<span class="st"> </span><span class="dv">2000</span></a>
+<a class="sourceLine" id="cb10-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="co"># Equilibrium</span></a>
+<a class="sourceLine" id="cb10-5" data-line-number="5">a  &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">/</span><span class="dv">6</span></a>
+<a class="sourceLine" id="cb10-6" data-line-number="6">b  &lt;-<span class="st"> </span><span class="dv">4</span><span class="op">/</span><span class="dv">3</span></a>
+<a class="sourceLine" id="cb10-7" data-line-number="7">c  &lt;-<span class="st"> </span>d  &lt;-<span class="st"> </span><span class="dv">1</span></a>
+<a class="sourceLine" id="cb10-8" data-line-number="8">R0 &lt;-<span class="st"> </span>F0 &lt;-<span class="st"> </span><span class="fl">0.1</span></a>
+<a class="sourceLine" id="cb10-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb10-10" data-line-number="10"><span class="co"># Time constant</span></a>
+<a class="sourceLine" id="cb10-11" data-line-number="11">h &lt;-<span class="st"> </span><span class="fl">0.1</span></a>
+<a class="sourceLine" id="cb10-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb10-13" data-line-number="13"><span class="co"># Get the results</span></a>
+<a class="sourceLine" id="cb10-14" data-line-number="14">pp1 &lt;-<span class="st"> </span><span class="kw">lvEuler</span>(R0,F0,N,a,b,c,d,h)</a>
+<a class="sourceLine" id="cb10-15" data-line-number="15">pp2 &lt;-<span class="st"> </span><span class="kw">lvRK4</span>(R0,F0,N,a,b,c,d,h)</a>
+<a class="sourceLine" id="cb10-16" data-line-number="16"></a>
+<a class="sourceLine" id="cb10-17" data-line-number="17"><span class="co"># Make a long dataframe</span></a>
+<a class="sourceLine" id="cb10-18" data-line-number="18">pp &lt;-<span class="st"> </span><span class="kw">rbind</span>(pp1,pp2)</a>
+<a class="sourceLine" id="cb10-19" data-line-number="19"></a>
+<a class="sourceLine" id="cb10-20" data-line-number="20">pp.long &lt;-<span class="st"> </span>pp <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-21" data-line-number="21"><span class="st">  </span><span class="kw">gather</span>(<span class="dt">key =</span> TimeSeries, <span class="dt">value =</span> Y, <span class="op">-</span><span class="kw">c</span>(<span class="st">&quot;time&quot;</span>,<span class="st">&quot;method&quot;</span>))</a>
+<a class="sourceLine" id="cb10-22" data-line-number="22"></a>
+<a class="sourceLine" id="cb10-23" data-line-number="23"><span class="co"># Time series plots</span></a>
+<a class="sourceLine" id="cb10-24" data-line-number="24"><span class="kw">ggplot</span>(pp.long, <span class="kw">aes</span>(<span class="dt">x=</span>time,<span class="dt">y=</span>Y,<span class="dt">colour=</span>TimeSeries)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb10-25" data-line-number="25"><span class="st">  </span><span class="kw">geom_line</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb10-26" data-line-number="26"><span class="st">  </span><span class="kw">facet_grid</span>(method<span class="op">~</span>.) <span class="op">+</span></a>
+<a class="sourceLine" id="cb10-27" data-line-number="27"><span class="st">  </span><span class="kw">theme_bw</span>()</a></code></pre></div>
+<p><img src="CSA-Book_files/figure-html/unnamed-chunk-17-1.png" width="99%" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="co"># Phase plane plots</span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="kw">ggplot</span>(pp, <span class="kw">aes</span>(<span class="dt">x=</span>Ra,<span class="dt">y=</span>Fx,<span class="dt">colour=</span>time)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb11-4" data-line-number="4"><span class="st">  </span><span class="kw">facet_grid</span>(method<span class="op">~</span>.) <span class="op">+</span></a>
+<a class="sourceLine" id="cb11-5" data-line-number="5"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;Rabbits&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;Foxes&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb11-6" data-line-number="6"><span class="st">  </span><span class="kw">theme_bw</span>()</a></code></pre></div>
+<p><img src="CSA-Book_files/figure-html/unnamed-chunk-17-2.png" width="99%" style="display: block; margin: auto;" /></p>
+<p>Using the Euler method predator and prey populations do not ‘die out’, but in phase space they seem to occupy different behavioural regimes. This looks like an unstable periodic orbit, or an unstable limit cycle, but it is in fact caused by the inaccuarcy of Euler’s method. Here <em>RK4</em> clearly outperforms <em>Euler</em>.</p>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="the-complex-systems-approach.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="implementing-iterative-functions.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="advmodels.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
