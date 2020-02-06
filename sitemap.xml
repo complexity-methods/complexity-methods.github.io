@@ -21,6 +21,35 @@
   </url>
   
   <url>
+    <loc>/courses/dynamics-of-complex-systems/session3/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/session4/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/session5/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/session6/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/session7/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/session8/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/archive/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
@@ -209,6 +238,16 @@
   
   <url>
     <loc>/book/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_mvsystems/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_uvsystems/</loc>
     <priority>0</priority>
   </url>
   
@@ -418,6 +457,30 @@
   
   <url>
     <loc>/categories/session-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-4/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-5/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-6/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-7/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/session-8/</loc>
   </url>
   
   <url>
