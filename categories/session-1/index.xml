@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Session 1 | Complexity Methods for Behavioural Science</title>
+    <link>/categories/session-1/</link>
+      <atom:link href="/categories/session-1/index.xml" rel="self" type="application/rss+xml" />
+    <description>Session 1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Session 1</title>
+      <link>/categories/session-1/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to the mathematics of change - 1D systems</title>
+      <link>/courses/dynamics-of-complex-systems/session1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/dynamics-of-complex-systems/session1/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_uvsystems/&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

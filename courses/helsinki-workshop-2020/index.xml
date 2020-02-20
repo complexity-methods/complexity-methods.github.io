@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction to the analytical toolbox of Complexity Science | Complexity Methods for Behavioural Science</title>
+    <link>/courses/helsinki-workshop-2020/</link>
+      <atom:link href="/courses/helsinki-workshop-2020/index.xml" rel="self" type="application/rss+xml" />
+    <description>Introduction to the analytical toolbox of Complexity Science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Introduction to the analytical toolbox of Complexity Science</title>
+      <link>/courses/helsinki-workshop-2020/</link>
+    </image>
+    
+    <item>
+      <title>Multiplex Recurrence Networks</title>
+      <link>/courses/helsinki-workshop-2020/day3_2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day3_2/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd32networks-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d3_2_networks/&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday3complexnetworkspdf-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day3_ComplexNetworks.pdf&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Categorical Auto Recurrence Quantification Analysis</title>
+      <link>/courses/helsinki-workshop-2020/day2_1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day2_1/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd21catarqa-targetblankautorqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_1_catarqa/&#34; target=&#34;_blank&#34;&gt;Auto-RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd23contarqa-targetblankcontinuous-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_3_contarqa/&#34; target=&#34;_blank&#34;&gt;Continuous RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday2categoricalrqaphasespacereconstructionpdf-targetblankauto-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day2_CategoricalRQA_PhaseSpaceReconstruction.pdf&#34; target=&#34;_blank&#34;&gt;Auto RQA&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autocorrelations, Entropy and Roughness</title>
+      <link>/courses/helsinki-workshop-2020/day1_2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day1_2/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd12basictsa-targetblankbasic-time-series-analysisa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_2_basictsa/&#34; target=&#34;_blank&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday12basictsapdf-targetblankbasic-tsaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day1_2_BasicTSA.pdf&#34; target=&#34;_blank&#34;&gt;Basic TSA&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Categorical Cross Recurrence Quantification Analysis</title>
+      <link>/courses/helsinki-workshop-2020/day2_2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day2_2/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd22crqa-targetblankcrossrqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_2_crqa/&#34; target=&#34;_blank&#34;&gt;Cross-RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday2crqapdf-targetblankcross-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day2_CRQA.pdf&#34; target=&#34;_blank&#34;&gt;Cross RQA&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Complexity</title>
+      <link>/courses/helsinki-workshop-2020/day3_1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day3_1/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd31dc-targetblankdynamic-complexity-as-an-earlywarning-signala&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d3_1_dc/&#34; target=&#34;_blank&#34;&gt;Dynamic Complexity as an Early-Warning Signal&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday3dcpdf-targetblankdynamic-complexitya&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day3_DC.pdf&#34; target=&#34;_blank&#34;&gt;Dynamic complexity&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scaling Phenomena</title>
+      <link>/courses/helsinki-workshop-2020/day1_3/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day1_3/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd13scaling-targetblankfluctuation-and-dispersion-analysesa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_3_scaling/&#34; target=&#34;_blank&#34;&gt;Fluctuation and Dispersion Analyses&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinki2020day13scalingpdf-targetblankscaling-phenomenaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki2020_day1_3_scaling.pdf&#34; target=&#34;_blank&#34;&gt;Scaling phenomena&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s about time!</title>
+      <link>/courses/helsinki-workshop-2020/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/intro/</guid>
+      <description>&lt;h2 id=&#34;lecture-monday-evenning&#34;&gt;Lecture Monday Evenning&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinki2020talkpdf-targetblankcomplexity-science-its-about-timea&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/HELSINKI2020_Talk.pdf&#34; target=&#34;_blank&#34;&gt;Complexity Science: It&#39;s about time!&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Complexity Science</title>
+      <link>/courses/helsinki-workshop-2020/day1_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day1_1/</guid>
+      <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd11uvsystems-targetblankgrowth-models-and-deterministic-chaosa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_1_uvsystems/&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday11simplemodelspdf-targetblankintro-complexity--intro-mathsa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day1_1_SimpleModels.pdf&#34; target=&#34;_blank&#34;&gt;Intro Complexity &amp;amp; Intro Maths&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to the mathematics of change</title>
+      <link>/courses/helsinki-workshop-2020/day1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day1/</guid>
+      <description>&lt;h2 id=&#34;additional-literature-for-the-course&#34;&gt;Additional literature for the course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nsf.gov/pubs/2005/nsf05057/nmbs/nmbs.jsp&#34;&gt;Tutorials in Contemporary Nonlinear Methods for the Behavioural Sciences&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/1922136&#34;&gt;Section II (p.6): DYNAMIC PATTERN FORMATION IN PHYSICAL, BIOLOGICAL, AND COMPUTATIONAL SYSTEMS&lt;/a&gt; of Thelen, E., &amp;amp; Ulrich, B. D. (1991). Hidden skills: A dynamic systems analysis of treadmill stepping during the first year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-table-for-day-1&#34;&gt;Time table for Day 1&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;09.15-10.15&lt;/td&gt;
+&lt;td&gt;Introduction to Complexity Science&lt;/td&gt;
+&lt;td&gt;Dissipative systems, Self-Organization, SOC, Phase transition, Interaction Dominant Dynamics, Emergence, Synchronisation&lt;/td&gt;
+&lt;td&gt;Location: Aurora, Siltavuorenpenger 10, room 224&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.15-10:30&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30-11:30&lt;/td&gt;
+&lt;td&gt;Introduction to the mathematics of change&lt;/td&gt;
+&lt;td&gt;Logistic Map, Return Plot, Attractors&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11.30-12.15&lt;/td&gt;
+&lt;td&gt;Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Assignments can be made in a spreadsheet or R/JAMOVI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12.15-13.15&lt;/td&gt;
+&lt;td&gt;Lunch&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13.15-14.00&lt;/td&gt;
+&lt;td&gt;Basic Time Series Analysis&lt;/td&gt;
+&lt;td&gt;Auto Correlation Function, Sample Entropy, Relative Roughness&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.00-14.45&lt;/td&gt;
+&lt;td&gt;Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Assignments can be made in SPSS, R/JAMOVI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:45-15.00&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:00-15:45&lt;/td&gt;
+&lt;td&gt;Detecting (nonlinear) structure in time series&lt;/td&gt;
+&lt;td&gt;Fractal Dimension, Detrended Fluctuation Analysis, Standardised Dispersion Analysis&lt;/td&gt;
+&lt;td&gt;Assignments are optional&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantifying Recurrences in State Space</title>
+      <link>/courses/helsinki-workshop-2020/day2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day2/</guid>
+      <description>&lt;h2 id=&#34;todays-topics&#34;&gt;Today&#39;s Topics:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Unordered categorical time series:
+&lt;ul&gt;
+&lt;li&gt;(Cross-) Recurrence Quantification Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Continuous time series:
+&lt;ul&gt;
+&lt;li&gt;Delay-embedding &amp;amp; Phase space reconstruction&lt;/li&gt;
+&lt;li&gt;Analysis of leader-follower behavior and coupling direction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-table-for-day-2&#34;&gt;Time table for Day 2&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;09.15-10.15&lt;/td&gt;
+&lt;td&gt;Quantifying temporal patterns in unordered categorical time series data&lt;/td&gt;
+&lt;td&gt;Categorical Auto-Recurrence Quantification Analysis (RQA)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.15-10.30&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30-11:30&lt;/td&gt;
+&lt;td&gt;Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Categorical RQA, Surrogate analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11.30-12.15&lt;/td&gt;
+&lt;td&gt;Quantifying temporal patterns in continuous time series data&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Phase-space reconstruction, EWS of phase transitions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12.15-13.15&lt;/td&gt;
+&lt;td&gt;Lunch&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13.15-14.00&lt;/td&gt;
+&lt;td&gt;Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Assignments can be made in R/JAMOVI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14.00-14.45&lt;/td&gt;
+&lt;td&gt;Cross-RQA of unordered categorical data&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14:45-15.00&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15:00-15:45&lt;/td&gt;
+&lt;td&gt;Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Cross-RQA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Network Topology and Early Warning Signals</title>
+      <link>/courses/helsinki-workshop-2020/day3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/courses/helsinki-workshop-2020/day3/</guid>
+      <description>&lt;h2 id=&#34;todays-topics&#34;&gt;Today&#39;s Topics:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The idiographic system method in psychopathology
+&lt;ul&gt;
+&lt;li&gt;Process monitoring (experience sampling)&lt;/li&gt;
+&lt;li&gt;Multivariate time series&lt;/li&gt;
+&lt;li&gt;Dynamic complexity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Advanced Topics:
+&lt;ul&gt;
+&lt;li&gt;(Multiplex) Recurrence networks&lt;/li&gt;
+&lt;li&gt;Convergent cross-mapping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;time-table-for-day-3&#34;&gt;Time table for Day 3&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;When&lt;/th&gt;
+&lt;th&gt;What&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;09.15-10.15&lt;/td&gt;
+&lt;td&gt;Dynamic complexity as an early warning signal in psychopathology&lt;/td&gt;
+&lt;td&gt;Multivariate time series, Idiographic science&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10.15-10.30&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10:30-11:45&lt;/td&gt;
+&lt;td&gt;Advanced Topics&lt;/td&gt;
+&lt;td&gt;Multiplex Recurrence Networks, Convergent cross-mapping&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
