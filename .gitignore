@@ -43,3 +43,5 @@ vignettes/*.pdf
 *.pptx
 
 .icloud
+js/vendor/reveal.js/plugin/notes/.notes 3.html.icloud
+*.icloud
