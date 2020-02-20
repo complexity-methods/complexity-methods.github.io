@@ -145,16 +145,6 @@
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -234,61 +224,6 @@
   
   <url>
     <loc>/authors/ralf/</loc>
-  </url>
-  
-  <url>
-    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_mvsystems/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_uvsystems/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d2_basictsa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d1_1_uvsystems/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d1_2_basictsa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d1_3_scaling/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d2_1_catarqa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d2_2_crqa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d2_3_contarqa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d3_1_dc/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/courses/helsinki-workshop-2020/assignments/assignments_d3_2_networks/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
