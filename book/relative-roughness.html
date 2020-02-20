@@ -380,7 +380,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">5.1</span> <strong>Relative Roughness</strong></h2>
 <p>Relative Roughness evaluates the local variability relative to the global variability in a time series. It is calculated using the following formula:</p>
 <p><span class="math display" id="eq:RR">\[\begin{equation}
-RR = 2*\left[1 + \frac{\gamma_1(x_i)}{Var(x_i)}\right]
+RR = 2*\left[1 - \frac{\gamma_1(x_i)}{Var(x_i)}\right]
 \tag{5.1}
 \end{equation}\]</span></p>
 <p>The numerator in the formula stands for the <code>lag 1</code> auto-covariance of the time series <span class="math inline">\(x_i\)</span>, this is the unstandardised lag1 autocorrelation (auto-covariance). The denominator stands for the (global) variance of <span class="math inline">\(x_i\)</span> which all statistics packages can calculate. Another way to describe the global variance is: <code>lag 0</code> auto-covariance.</p>
