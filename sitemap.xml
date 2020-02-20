@@ -237,17 +237,17 @@
   </url>
   
   <url>
-    <loc>/book/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_mvsystems/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_uvsystems/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/courses/dynamics-of-complex-systems/assignments/assignments_d2_basictsa/</loc>
     <priority>0</priority>
   </url>
   

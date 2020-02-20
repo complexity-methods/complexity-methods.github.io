@@ -2229,6 +2229,113 @@ The Logistic Map is the simplest nontrivial model that can display deterministic
 </div>
 </div>
 </div>
+<div id="extra-van-geerts-growth-model" class="section level1">
+<h1><span class="header-section-number">2</span> <strong>EXTRA</strong>: van Geert’s growth model</h1>
+<p>In this assignment you’ll build a more sophisticated growth model and look at its properties. The model will be the growth model by Van Geert (1991). You can try to code the models following the hints in section <a href="#moc1R"><strong>??</strong></a>.</p>
+<div id="the-growth-model-by-van-geert-1991" class="section level2 unnumbered">
+<h2>The growth model by Van Geert (1991)</h2>
+<p>The growth model by Van Geert has the following form:</p>
+<p><span class="math display" id="eq:vanG">\[\begin{equation}
+L_{t+1} = L_t * (1 + r - r * \frac{L_t}{K})
+\tag{2.1}
+\end{equation}\]</span></p>
+<p>Note the similarities to the logistic map.</p>
+<div id="the-growth-model-in-a-spreadsheet" class="section level3 tabset tabset-fade tabset-pills">
+<h3><span class="header-section-number">2.0.1</span> The growth model in a spreadsheet</h3>
+<ul>
+<li>Go to the following <a href="https://docs.google.com/spreadsheets/d/1DAg0u-zMFOIvRSDOZDxqnzyS0HQJg4FIXzJIMvEMwiI/edit?usp=sharing">GoogleSheet</a> and download or copy it to a new browser tab.</li>
+</ul>
+<div id="questions-9" class="section level4 unnumbered">
+<h4>Questions</h4>
+<ul>
+<li>The constants are defined as:
+<ul>
+<li><span class="math inline">\(r\)</span> in <code>A5</code></li>
+<li><span class="math inline">\(L_0\)</span> in <code>A6</code></li>
+<li><span class="math inline">\(K\)</span> in cell <code>A7</code>. This is the <em>carrying capacity</em>. It is set to the value <span class="math inline">\(1\)</span> in cell <code>B7</code>.</li>
+</ul></li>
+<li>Start with the following values:
+<ul>
+<li><span class="math inline">\(r = 1.2\)</span></li>
+<li><span class="math inline">\(L_0 = 0.01\)</span></li>
+</ul></li>
+<li>You can start playing with the values for the parameters and the initial values in cells <code>B5</code>, <code>B6</code> and <code>B7</code>. To study its behavior, be sure to try the following growth parameters:
+<ul>
+<li><span class="math inline">\(r = 1.2\)</span></li>
+<li><span class="math inline">\(r = 2.2\)</span></li>
+<li><span class="math inline">\(r = 2.5\)</span></li>
+<li><span class="math inline">\(r = 2.7\)</span></li>
+<li><span class="math inline">\(r = 2.9\)</span></li>
+</ul></li>
+<li>For the carrying capacity <span class="math inline">\(K\)</span> (cell <code>B7</code>) you can try the following values:
+<ul>
+<li><span class="math inline">\(K = 1.5\)</span></li>
+<li><span class="math inline">\(K = 0.5\)</span>. (Leave <span class="math inline">\(r = 2.9\)</span>. Look at the value on the vertical axis!)</li>
+</ul></li>
+<li>Changes in the values of <span class="math inline">\(K\)</span> have an effect on the height of the graph. The pattern itself also changes a bit.
+<ul>
+<li>Can you explain why this is so?</li>
+</ul></li>
+</ul>
+</div>
+<div id="answers-9" class="section level4 unnumbered">
+<h4>Answers</h4>
+<ul>
+<li>Changes in the values of <span class="math inline">\(K\)</span> have an effect on the height of the graph. The pattern itself also changes a bit.
+<ul>
+<li>Can you explain why this is so?</li>
+</ul></li>
+</ul>
+<p>Larger values can enter the iterative process if <span class="math inline">\(K\)</span> increased.</p>
+</div>
+</div>
+</div>
+<div id="conditional-growth-jumps-and-stages" class="section level2">
+<h2><span class="header-section-number">2.1</span> Conditional growth: Jumps and Stages</h2>
+<div id="auto-conditional-jumps" class="section level3 unnumbered">
+<h3>Auto-conditional jumps</h3>
+<p>Suppose we want to model that the growth rate <span class="math inline">\(r\)</span> increases after a certain amount has been learned. In general, this is a very common phenomenon, for instance: when becoming proficient at a skill, growth (in proficiency) is at first slow, but then all of a sudden there can be a jump to the appropriate (and sustained) level of proficiency.</p>
+<p>The second tab of the google sheet contains an example.</p>
+<div id="questions-10" class="section level4 unnumbered">
+<h4>Questions</h4>
+<ul>
+<li>Suppose we want the parameter to change when a growth level of <span class="math inline">\(0.2\)</span> is reached. This is modelled using an <code>IF</code> statement which looks something like this: <code>IF</code> <span class="math inline">\(L &gt; 0.2\)</span> then use the parameter value in <code>C5</code>, otherwise use the parameter value in <code>B5</code>.
+<ul>
+<li>Excel has a built in <code>IF</code> function (may be <code>ALS</code> in Dutch). Check the cells to figure out how the level change is impemented.</li>
+<li>Try changing the value of <span class="math inline">\(r\)</span> in <code>C5</code> into: <span class="math inline">\(1, 2, 2.8, 2.9, 3\)</span>.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="auto-conditional-stages" class="section level3 unnumbered">
+<h3>Auto-conditional stages</h3>
+<p>Another conditional change we might want to explore is that when a certain growth level is reached the carrying capacity <span class="math inline">\(K\)</span> increases, reflecting that new resources have become available to support further growth. This is modelled on the third and fourth tab of spreadsheet [van Geert (2 stages); van Geert (3 stages)]</p>
+<div id="questions-11" class="section level4 unnumbered">
+<h4>Questions</h4>
+<ul>
+<li>Now we want <span class="math inline">\(K\)</span> to change, so type <span class="math inline">\(1\)</span> in <code>B7</code>, <span class="math inline">\(2\)</span> in <code>C7</code>.</li>
+<li>When <span class="math inline">\(L &gt; 0.99\)</span>, <span class="math inline">\(K\)</span> changes to the value in <code>C7</code>. Keep <span class="math inline">\(r = 0.2\)</span> (<code>B5</code>).</li>
+<li>Change <span class="math inline">\(K\)</span> in <code>C7</code> to other values.</li>
+<li>The growth rate <code>r</code> changes after reaching <span class="math inline">\(L &gt; 0.99\)</span>. Start with a value of <span class="math inline">\(0.3\)</span> in <code>C5</code> and set <span class="math inline">\(K\)</span> in <code>C7</code> to <span class="math inline">\(2\)</span> again.
+<ul>
+<li>Also try setting <code>r</code> in <code>C5</code> to <span class="math inline">\(1, 2.1, 2.5, 2.6, 3\)</span>.</li>
+</ul></li>
+<li>Using this method you can of course add stages, see the tab <code>van Geert (3 stages)</code></li>
+</ul>
+</div>
+<div id="demonstrations-of-dynamic-modeling-using-spreadsheets" class="section level4">
+<h4><span class="header-section-number">2.1.0.1</span> Demonstrations of dynamic modeling using spreadsheets</h4>
+<p>See the website by <a href="http://www.paulvangeert.nl/research.htm">Paul Van Geert</a>, scroll down to see models of:</p>
+<ul>
+<li>Learning and Teaching</li>
+<li>Behaviour Modification</li>
+<li>Connected Growers</li>
+<li>Interaction during Play</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 
 
