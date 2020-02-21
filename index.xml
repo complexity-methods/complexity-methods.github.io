@@ -19,13 +19,15 @@
       <guid>/courses/dynamics-of-complex-systems/session1/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/dynamics-of-complex-systems/assignments/assignments_d1_2_uvsystems/&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D1_2_uvSystems.html&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/br&gt;
 &lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/br&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 </description>
     </item>
@@ -37,7 +39,7 @@
       <guid>/courses/dynamics-of-complex-systems/session2/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_D1_2_mvSystems.html&#34; target=&#34;_blank&#34;&gt;Coupled systems/a&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D1_2_mvSystems.html&#34; target=&#34;_blank&#34;&gt;Coupled systems/a&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -55,11 +57,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/dynamics-of-complex-systems/session3/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D2_basicTSA.html&#34; target=&#34;_blank&#34;&gt;Coupled systems/a&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
 </description>
     </item>
@@ -170,9 +178,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day3_2/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd32networks-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d3_2_networks/&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd32networks-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D3_2_Networks/&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday3complexnetworkspdf-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day3_ComplexNetworks.pdf&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday3complexnetworkspdf-targetblankcomplex-networksa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_Day3_ComplexNetworks.pdf&#34; target=&#34;_blank&#34;&gt;Complex Networks&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -182,10 +190,10 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day2_1/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd21catarqa-targetblankautorqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_1_catarqa/&#34; target=&#34;_blank&#34;&gt;Auto-RQA&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd23contarqa-targetblankcontinuous-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_3_contarqa/&#34; target=&#34;_blank&#34;&gt;Continuous RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd21catarqa-targetblankautorqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D2_1_catARQA/&#34; target=&#34;_blank&#34;&gt;Auto-RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd23contarqa-targetblankcontinuous-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D2_3_contARQA/&#34; target=&#34;_blank&#34;&gt;Continuous RQA&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday2categoricalrqaphasespacereconstructionpdf-targetblankauto-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day2_CategoricalRQA_PhaseSpaceReconstruction.pdf&#34; target=&#34;_blank&#34;&gt;Auto RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday2categoricalrqaphasespacereconstructionpdf-targetblankauto-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_day2_CategoricalRQA_PhaseSpaceReconstruction.pdf&#34; target=&#34;_blank&#34;&gt;Auto RQA&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -195,9 +203,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day1_2/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd12basictsa-targetblankbasic-time-series-analysisa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_2_basictsa/&#34; target=&#34;_blank&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd12basictsahtml-targetblankbasic-time-series-analysisa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D1_2_basicTSA.html&#34; target=&#34;_blank&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday12basictsapdf-targetblankbasic-tsaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day1_2_BasicTSA.pdf&#34; target=&#34;_blank&#34;&gt;Basic TSA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday12basictsapdf-targetblankbasic-tsaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_Day1_2_BasicTSA.pdf&#34; target=&#34;_blank&#34;&gt;Basic TSA&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -207,9 +215,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day2_2/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd22crqa-targetblankcrossrqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d2_2_crqa/&#34; target=&#34;_blank&#34;&gt;Cross-RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd22crqa-targetblankcrossrqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D2_2_CRQA/&#34; target=&#34;_blank&#34;&gt;Cross-RQA&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday2crqapdf-targetblankcross-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day2_CRQA.pdf&#34; target=&#34;_blank&#34;&gt;Cross RQA&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday2crqapdf-targetblankcross-rqaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_day2_CRQA.pdf&#34; target=&#34;_blank&#34;&gt;Cross RQA&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -219,9 +227,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day3_1/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd31dc-targetblankdynamic-complexity-as-an-earlywarning-signala&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d3_1_dc/&#34; target=&#34;_blank&#34;&gt;Dynamic Complexity as an Early-Warning Signal&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd31dc-targetblankdynamic-complexity-as-an-earlywarning-signala&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D3_1_DC/&#34; target=&#34;_blank&#34;&gt;Dynamic Complexity as an Early-Warning Signal&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday3dcpdf-targetblankdynamic-complexitya&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_day3_DC.pdf&#34; target=&#34;_blank&#34;&gt;Dynamic complexity&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday3dcpdf-targetblankdynamic-complexitya&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_day3_DC.pdf&#34; target=&#34;_blank&#34;&gt;Dynamic complexity&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -231,9 +239,9 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/helsinki-workshop-2020/day1_3/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd13scaling-targetblankfluctuation-and-dispersion-analysesa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_3_scaling/&#34; target=&#34;_blank&#34;&gt;Fluctuation and Dispersion Analyses&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd13scaling-targetblankfluctuation-and-dispersion-analysesa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D1_3_scaling/&#34; target=&#34;_blank&#34;&gt;Fluctuation and Dispersion Analyses&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinki2020day13scalingpdf-targetblankscaling-phenomenaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki2020_day1_3_scaling.pdf&#34; target=&#34;_blank&#34;&gt;Scaling phenomena&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinki2020day13scalingpdf-targetblankscaling-phenomenaa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki2020_day1_3_scaling.pdf&#34; target=&#34;_blank&#34;&gt;Scaling phenomena&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
@@ -462,7 +470,9 @@ Three
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/helsinki-workshop-2020/intro/</guid>
       <description>&lt;h2 id=&#34;lecture-monday-evenning&#34;&gt;Lecture Monday Evenning&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinki2020talkpdf-targetblankcomplexity-science-its-about-timea&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/HELSINKI2020_Talk.pdf&#34; target=&#34;_blank&#34;&gt;Complexity Science: It&#39;s about time!&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/HELSINKI2020_Talk.pdf&#34; target=&#34;_blank&#34;&gt;Complexity Science: It&#39;s about time!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -472,9 +482,9 @@ Three
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/helsinki-workshop-2020/day1_1/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020assignmentsassignmentsd11uvsystems-targetblankgrowth-models-and-deterministic-chaosa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/helsinki-workshop-2020/assignments/assignments_d1_1_uvsystems/&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioassignmentshelsinki2020assignmentsd11uvsystemshtml-targetblankgrowth-models-and-deterministic-chaosa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/Helsinki2020/ASSIGNMENTS_D1_1_uvSystems.html&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/h3&gt;
 &lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubiocourseshelsinkiworkshop2020slideshelsinkiday11simplemodelspdf-targetblankintro-complexity--intro-mathsa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/courses/Helsinki-Workshop-2020/slides/Helsinki_Day1_1_SimpleModels.pdf&#34; target=&#34;_blank&#34;&gt;Intro Complexity &amp;amp; Intro Maths&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefhttpscomplexitymethodsgithubioslideshelsinki2020helsinkiday11simplemodelspdf-targetblankintro-complexity--intro-mathsa&#34;&gt;&lt;a href=&#34;https://complexity-methods.github.io/slides/Helsinki2020/Helsinki_Day1_1_SimpleModels.pdf&#34; target=&#34;_blank&#34;&gt;Intro Complexity &amp;amp; Intro Maths&lt;/a&gt;&lt;/h3&gt;
 </description>
     </item>
     
