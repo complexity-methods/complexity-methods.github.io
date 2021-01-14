@@ -5,9 +5,9 @@
     <link>/courses/dynamics-of-complex-systems/</link>
       <atom:link href="/courses/dynamics-of-complex-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Complexity Methods for Behavioural Science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2021</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Complexity Methods for Behavioural Science</title>
       <link>/courses/dynamics-of-complex-systems/</link>
     </image>
@@ -22,10 +22,10 @@
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D1_2_uvSystems.html&#34; target=&#34;_blank&#34;&gt;Growth models and deterministic chaos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/br&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/br&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
@@ -41,10 +41,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D1_2_mvSystems.html&#34; target=&#34;_blank&#34;&gt;Coupled systems/a&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/introduction-to-the-mathematics-of-change.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/plotTS.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Appendix A: Working with time series in R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;Suggested literature&lt;/h2&gt;
@@ -60,13 +60,13 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/DCS1920/ASSIGNMENTS_D2_basicTSA.html&#34; target=&#34;_blank&#34;&gt;Coupled systems/a&amp;gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/basic-time-series-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Basic Time Series Analysis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
 </description>
@@ -79,12 +79,12 @@
       <guid>/courses/dynamics-of-complex-systems/session4/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_scaling.html&#34;&gt;Scaling phenomena&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_scaling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scaling phenomena&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/fluctuation-analyses-global-scaling.html&#34;&gt;Global scaling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/fluctuation-analyses-local-scaling.html&#34;&gt;Local scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/fluctuation-analyses-global-scaling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Global scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/fluctuation-analyses-local-scaling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Local scaling&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
@@ -98,12 +98,12 @@
       <guid>/courses/dynamics-of-complex-systems/session5/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_autoRQA.html&#34;&gt;Categorical &amp;amp; Continuous RQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_autoRQA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Categorical &amp;amp; Continuous RQA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/categorical-auto-recurrence-analysis.html&#34;&gt;Categorical RQA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/continuous-auto-recurrence-analysis.html&#34;&gt;Continuous RQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/categorical-auto-recurrence-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Categorical RQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/continuous-auto-recurrence-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Continuous RQA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
@@ -117,13 +117,13 @@
       <guid>/courses/dynamics-of-complex-systems/session6/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_D4_CRQA.html&#34;&gt;Categorical &amp;amp; Continuous RQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/assignments/ASSIGNMENTS_D4_CRQA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Categorical &amp;amp; Continuous RQA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/categorical-cross-recurrence-analysis.html&#34;&gt;Categorical CRQA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/continuous-cross-recurrence-analysis.html&#34;&gt;Continuous CRQA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/other-flavours-of-rqa.html&#34;&gt;Other types of RQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/categorical-cross-recurrence-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Categorical CRQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/continuous-cross-recurrence-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Continuous CRQA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/other-flavours-of-rqa.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Other types of RQA&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
@@ -136,9 +136,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/dynamics-of-complex-systems/session7/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/dynamic-complexity.html&#34;&gt;Dynamic Complexity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/dynamic-complexity.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dynamic Complexity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;
@@ -151,9 +151,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/courses/dynamics-of-complex-systems/session8/</guid>
       <description>&lt;h2 id=&#34;assignments&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/h2&gt;
-&lt;h2 id=&#34;csabook&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;csa-book&#34;&gt;&lt;strong&gt;CSA-book&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/graph-theory-and-complex-network-analysis.html&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://complexity-methods.github.io/book/graph-theory-and-complex-network-analysis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to the mathematics of change&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;slides&#34;&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;suggested-literature&#34;&gt;&lt;strong&gt;Suggested literature&lt;/strong&gt;&lt;/h2&gt;

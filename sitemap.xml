@@ -80,6 +80,11 @@
   </url>
   
   <url>
+    <loc>/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/helsinki-workshop-2020/day2_2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -95,7 +100,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -125,7 +130,7 @@
   </url>
   
   <url>
-    <loc>/tags/source-themes/</loc>
+    <loc>/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -145,42 +150,7 @@
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,7 +165,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -237,19 +207,19 @@
   </url>
   
   <url>
-    <loc>/tags/attractors/</loc>
+    <loc>/tag/attractors/</loc>
   </url>
   
   <url>
-    <loc>/tags/auto-rqa/</loc>
+    <loc>/tag/auto-rqa/</loc>
   </url>
   
   <url>
-    <loc>/tags/autocorrelation/</loc>
+    <loc>/tag/autocorrelation/</loc>
   </url>
   
   <url>
-    <loc>/tags/bifurcation-diagram/</loc>
+    <loc>/tag/bifurcation-diagram/</loc>
   </url>
   
   <url>
@@ -257,79 +227,79 @@
   </url>
   
   <url>
-    <loc>/tags/client-therapist/</loc>
+    <loc>/tag/client-therapist/</loc>
   </url>
   
   <url>
-    <loc>/tags/coupled-systems/</loc>
+    <loc>/tag/coupled-systems/</loc>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>/project/covid19/</loc>
   </url>
   
   <url>
-    <loc>/tags/critical-fluctuations/</loc>
+    <loc>/tag/critical-fluctuations/</loc>
   </url>
   
   <url>
-    <loc>/tags/cross-rqa/</loc>
+    <loc>/tag/cross-rqa/</loc>
   </url>
   
   <url>
-    <loc>/categories/day1/</loc>
+    <loc>/category/day1/</loc>
   </url>
   
   <url>
-    <loc>/categories/day2/</loc>
+    <loc>/category/day2/</loc>
   </url>
   
   <url>
-    <loc>/categories/day3/</loc>
+    <loc>/category/day3/</loc>
   </url>
   
   <url>
-    <loc>/tags/delay-embedding/</loc>
+    <loc>/tag/delay-embedding/</loc>
   </url>
   
   <url>
-    <loc>/tags/determistic-chaos/</loc>
+    <loc>/tag/determistic-chaos/</loc>
   </url>
   
   <url>
-    <loc>/tags/diagonal-recurrence-profiles/</loc>
+    <loc>/tag/diagonal-recurrence-profiles/</loc>
   </url>
   
   <url>
-    <loc>/tags/dissipative-systems/</loc>
+    <loc>/tag/dissipative-systems/</loc>
   </url>
   
   <url>
-    <loc>/tags/dynamic-complexity/</loc>
+    <loc>/tag/dynamic-complexity/</loc>
   </url>
   
   <url>
-    <loc>/tags/ema/</loc>
+    <loc>/tag/ema/</loc>
   </url>
   
   <url>
-    <loc>/tags/emergence/</loc>
+    <loc>/tag/emergence/</loc>
   </url>
   
   <url>
-    <loc>/tags/ews/</loc>
+    <loc>/tag/ews/</loc>
   </url>
   
   <url>
-    <loc>/tags/idiographic-science/</loc>
+    <loc>/tag/idiographic-science/</loc>
   </url>
   
   <url>
-    <loc>/tags/interaction-dominant-dynamice/</loc>
+    <loc>/tag/interaction-dominant-dynamice/</loc>
   </url>
   
   <url>
-    <loc>/categories/intro-complexity/</loc>
+    <loc>/category/intro-complexity/</loc>
   </url>
   
   <url>
@@ -345,39 +315,43 @@
   </url>
   
   <url>
-    <loc>/tags/logistic-map/</loc>
+    <loc>/tag/logistic-map/</loc>
   </url>
   
   <url>
-    <loc>/tags/multivariate-time-series/</loc>
+    <loc>/tag/multivariate-time-series/</loc>
   </url>
   
   <url>
-    <loc>/tags/period-of-destabilization/</loc>
+    <loc>/tag/period-of-destabilization/</loc>
   </url>
   
   <url>
-    <loc>/tags/phase-space/</loc>
+    <loc>/tag/phase-space/</loc>
   </url>
   
   <url>
-    <loc>/tags/phase-transition/</loc>
+    <loc>/tag/phase-transition/</loc>
   </url>
   
   <url>
-    <loc>/tags/phase-space-reconstruction/</loc>
+    <loc>/tag/phase-space-reconstruction/</loc>
   </url>
   
   <url>
-    <loc>/tags/relative-roughness/</loc>
+    <loc>/project/</loc>
   </url>
   
   <url>
-    <loc>/tags/return-plot/</loc>
+    <loc>/tag/relative-roughness/</loc>
   </url>
   
   <url>
-    <loc>/tags/sample-entropy/</loc>
+    <loc>/tag/return-plot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tag/sample-entropy/</loc>
   </url>
   
   <url>
@@ -393,59 +367,59 @@
   </url>
   
   <url>
-    <loc>/tags/self-organization/</loc>
+    <loc>/tag/self-organization/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-1/</loc>
+    <loc>/category/session-1/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-2/</loc>
+    <loc>/category/session-2/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-3/</loc>
+    <loc>/category/session-3/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-4/</loc>
+    <loc>/category/session-4/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-5/</loc>
+    <loc>/category/session-5/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-6/</loc>
+    <loc>/category/session-6/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-7/</loc>
+    <loc>/category/session-7/</loc>
   </url>
   
   <url>
-    <loc>/categories/session-8/</loc>
+    <loc>/category/session-8/</loc>
   </url>
   
   <url>
-    <loc>/tags/soc/</loc>
+    <loc>/tag/soc/</loc>
   </url>
   
   <url>
-    <loc>/tags/state-space/</loc>
+    <loc>/tag/state-space/</loc>
   </url>
   
   <url>
-    <loc>/tags/synchronisation/</loc>
+    <loc>/tag/synchronisation/</loc>
   </url>
   
   <url>
-    <loc>/tags/synergetics/</loc>
+    <loc>/tag/synergetics/</loc>
   </url>
   
   <url>
-    <loc>/tags/takens-theorem/</loc>
+    <loc>/tag/takens-theorem/</loc>
   </url>
   
 </urlset>
