@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EMA on Complexity Methods for Behavioural Science</title>
+    <link>https://complexity-methods.github.io/tags/ema/</link>
+    <description>Recent content in EMA on Complexity Methods for Behavioural Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    
+	<atom:link href="https://complexity-methods.github.io/tags/ema/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Day 5 schedule</title>
+      <link>https://complexity-methods.github.io/days/day5/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://complexity-methods.github.io/days/day5/</guid>
+      <description>Today&amp;rsquo;s Topics:  The idiographic system method in psychopathology Process monitoring (experience sampling) Dynamic complexity (Multiplex) Recurrence networks Early warning signals of phase transitions in multivariate time series data
+  Tentative time table for Day 5    When What Who Topics Notes     09:00-10:00 Intro Idiographic Methods FH     10:00-10:30 Guest lecture: Dynamic complexity as an early warning signal in psychopathology MO Dynamic Complexity, Multivariate ESM data    10.</description>
+    </item>
+    
+  </channel>
+</rss>
