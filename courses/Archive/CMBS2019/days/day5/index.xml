@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day 5 schedule on Complexity Methods for Behavioural Science</title>
-    <link>https://complexity-methods.github.io/days/day5/</link>
+    <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/</link>
     <description>Recent content in Day 5 schedule on Complexity Methods for Behavioural Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://complexity-methods.github.io/days/day5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Introduction to Idiographic Methods</title>
-      <link>https://complexity-methods.github.io/days/day5/lectured5_1/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_1/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/days/day5/lectured5_1/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_1/</guid>
       <description>Slides Download slides</description>
     </item>
-    
+
     <item>
       <title>Dynamic Complexity in Psychpathology</title>
-      <link>https://complexity-methods.github.io/days/day5/lectured5_2/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_2/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/days/day5/lectured5_2/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_2/</guid>
       <description> Guest Lecture Merlijn Olthof
 Slides Download slides as PDF View slides as HTML </description>
     </item>
-    
+
     <item>
       <title>Chromatic and Anisotropic RQA</title>
-      <link>https://complexity-methods.github.io/days/day5/lectured5_3/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_3/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/days/day5/lectured5_3/</guid>
-      <description>Guest lecture Lisette de Jonge-Hoekstra 
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_3/</guid>
+      <description>Guest lecture Lisette de Jonge-Hoekstra
 Slides Download slides</description>
     </item>
-    
+
     <item>
       <title>Reflecting on the Complex Systems Approach to Behavioural Science</title>
-      <link>https://complexity-methods.github.io/days/day5/lectured5_4/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_4/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/days/day5/lectured5_4/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/lectured5_4/</guid>
       <description>Slides Download slides</description>
     </item>
-    
+
     <item>
       <title>Assignments Day 5</title>
-      <link>https://complexity-methods.github.io/days/day5/assignmentsd5_1/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/assignmentsd5_1/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/days/day5/assignmentsd5_1/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/days/day5/assignmentsd5_1/</guid>
       <description> true  Assignments  Dynamic Complexity  </description>
     </item>
-    
+
   </channel>
 </rss>
