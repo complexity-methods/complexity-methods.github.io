@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Complexity Methods for Behavioural Science</title>
-    <link>https://complexity-methods.github.io/categories/</link>
+    <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/</link>
     <description>Recent content in Categories on Complexity Methods for Behavioural Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    
-	<atom:link href="https://complexity-methods.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Day1</title>
-      <link>https://complexity-methods.github.io/categories/day1/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/day1/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day1/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Day3</title>
-      <link>https://complexity-methods.github.io/categories/day3/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/day3/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day3/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Day4</title>
-      <link>https://complexity-methods.github.io/categories/day4/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/day4/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day4/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Day5</title>
-      <link>https://complexity-methods.github.io/categories/day5/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/day5/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day5/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Prepare</title>
-      <link>https://complexity-methods.github.io/categories/prepare/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/prepare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/prepare/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/prepare/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>day2</title>
-      <link>https://complexity-methods.github.io/categories/day2/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/categories/day2/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/categories/day2/</guid>
       <description></description>
     </item>
-    
+
   </channel>
 </rss>

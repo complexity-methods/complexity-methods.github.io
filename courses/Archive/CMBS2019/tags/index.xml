@@ -2,401 +2,401 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Complexity Methods for Behavioural Science</title>
-    <link>https://complexity-methods.github.io/tags/</link>
+    <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/</link>
     <description>Recent content in Tags on Complexity Methods for Behavioural Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    
-	<atom:link href="https://complexity-methods.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Attractors</title>
-      <link>https://complexity-methods.github.io/tags/attractors/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/attractors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/attractors/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/attractors/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Auto-RQA</title>
-      <link>https://complexity-methods.github.io/tags/auto-rqa/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/auto-rqa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/auto-rqa/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/auto-rqa/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Bifurcation Diagram</title>
-      <link>https://complexity-methods.github.io/tags/bifurcation-diagram/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/bifurcation-diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/bifurcation-diagram/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/bifurcation-diagram/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Client-therapist</title>
-      <link>https://complexity-methods.github.io/tags/client-therapist/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/client-therapist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/client-therapist/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/client-therapist/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Complexity Matching</title>
-      <link>https://complexity-methods.github.io/tags/complexity-matching/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/complexity-matching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/complexity-matching/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/complexity-matching/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Correlation Functions</title>
-      <link>https://complexity-methods.github.io/tags/correlation-functions/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/correlation-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/correlation-functions/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/correlation-functions/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Coupled Systems</title>
-      <link>https://complexity-methods.github.io/tags/coupled-systems/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/coupled-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/coupled-systems/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/coupled-systems/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Cross-RQA</title>
-      <link>https://complexity-methods.github.io/tags/cross-rqa/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/cross-rqa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/cross-rqa/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/cross-rqa/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Delay Embedding</title>
-      <link>https://complexity-methods.github.io/tags/delay-embedding/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/delay-embedding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/delay-embedding/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/delay-embedding/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Determistic chaos</title>
-      <link>https://complexity-methods.github.io/tags/determistic-chaos/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/determistic-chaos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/determistic-chaos/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/determistic-chaos/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Detrended Fluctuation Analysis</title>
-      <link>https://complexity-methods.github.io/tags/detrended-fluctuation-analysis/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/detrended-fluctuation-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/detrended-fluctuation-analysis/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/detrended-fluctuation-analysis/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Diagonal recurrence profiles</title>
-      <link>https://complexity-methods.github.io/tags/diagonal-recurrence-profiles/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/diagonal-recurrence-profiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/diagonal-recurrence-profiles/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/diagonal-recurrence-profiles/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Dissipative systems</title>
-      <link>https://complexity-methods.github.io/tags/dissipative-systems/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/dissipative-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/dissipative-systems/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/dissipative-systems/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Dynamic Complexity</title>
-      <link>https://complexity-methods.github.io/tags/dynamic-complexity/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/dynamic-complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/dynamic-complexity/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/dynamic-complexity/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>EMA</title>
-      <link>https://complexity-methods.github.io/tags/ema/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ema/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/ema/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ema/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>EWS</title>
-      <link>https://complexity-methods.github.io/tags/ews/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ews/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/ews/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ews/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Emergence</title>
-      <link>https://complexity-methods.github.io/tags/emergence/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/emergence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/emergence/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/emergence/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Ergodicity</title>
-      <link>https://complexity-methods.github.io/tags/ergodicity/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ergodicity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/ergodicity/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/ergodicity/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Fractal Dimension</title>
-      <link>https://complexity-methods.github.io/tags/fractal-dimension/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/fractal-dimension/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/fractal-dimension/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/fractal-dimension/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Idiographic science</title>
-      <link>https://complexity-methods.github.io/tags/idiographic-science/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/idiographic-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/idiographic-science/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/idiographic-science/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Interaction Dominant Dynamice</title>
-      <link>https://complexity-methods.github.io/tags/interaction-dominant-dynamice/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/interaction-dominant-dynamice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/interaction-dominant-dynamice/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/interaction-dominant-dynamice/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Logistic Map</title>
-      <link>https://complexity-methods.github.io/tags/logistic-map/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/logistic-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/logistic-map/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/logistic-map/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Multiplex Recurrence Networks</title>
-      <link>https://complexity-methods.github.io/tags/multiplex-recurrence-networks/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/multiplex-recurrence-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/multiplex-recurrence-networks/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/multiplex-recurrence-networks/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Multivariate time series</title>
-      <link>https://complexity-methods.github.io/tags/multivariate-time-series/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/multivariate-time-series/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/multivariate-time-series/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/multivariate-time-series/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Phase Space</title>
-      <link>https://complexity-methods.github.io/tags/phase-space/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/phase-space/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-space/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Phase transition</title>
-      <link>https://complexity-methods.github.io/tags/phase-transition/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-transition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/phase-transition/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-transition/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Phase-space reconstruction</title>
-      <link>https://complexity-methods.github.io/tags/phase-space-reconstruction/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-space-reconstruction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/phase-space-reconstruction/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/phase-space-reconstruction/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Recurence Networks</title>
-      <link>https://complexity-methods.github.io/tags/recurence-networks/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/recurence-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/recurence-networks/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/recurence-networks/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Relative Roughness</title>
-      <link>https://complexity-methods.github.io/tags/relative-roughness/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/relative-roughness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/relative-roughness/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/relative-roughness/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Return Plot</title>
-      <link>https://complexity-methods.github.io/tags/return-plot/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/return-plot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/return-plot/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/return-plot/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>SOC</title>
-      <link>https://complexity-methods.github.io/tags/soc/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/soc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/soc/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/soc/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Sample Entropy</title>
-      <link>https://complexity-methods.github.io/tags/sample-entropy/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/sample-entropy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/sample-entropy/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/sample-entropy/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Self-Organization</title>
-      <link>https://complexity-methods.github.io/tags/self-organization/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/self-organization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/self-organization/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/self-organization/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Spectral Slope</title>
-      <link>https://complexity-methods.github.io/tags/spectral-slope/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/spectral-slope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/spectral-slope/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/spectral-slope/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Standardised Dispersion Analysis</title>
-      <link>https://complexity-methods.github.io/tags/standardised-dispersion-analysis/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/standardised-dispersion-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/standardised-dispersion-analysis/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/standardised-dispersion-analysis/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>State Space</title>
-      <link>https://complexity-methods.github.io/tags/state-space/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/state-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/state-space/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/state-space/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Surrogate analysis</title>
-      <link>https://complexity-methods.github.io/tags/surrogate-analysis/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/surrogate-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/surrogate-analysis/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/surrogate-analysis/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Symptom Networks</title>
-      <link>https://complexity-methods.github.io/tags/symptom-networks/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/symptom-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/symptom-networks/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/symptom-networks/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Synchronisation</title>
-      <link>https://complexity-methods.github.io/tags/synchronisation/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/synchronisation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/synchronisation/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/synchronisation/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Synergetics</title>
-      <link>https://complexity-methods.github.io/tags/synergetics/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/synergetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/synergetics/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/synergetics/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Takens&#39; theorem</title>
-      <link>https://complexity-methods.github.io/tags/takens-theorem/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/takens-theorem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/takens-theorem/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/takens-theorem/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>critical fluctuations</title>
-      <link>https://complexity-methods.github.io/tags/critical-fluctuations/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/critical-fluctuations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/critical-fluctuations/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/critical-fluctuations/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>period of destabilization</title>
-      <link>https://complexity-methods.github.io/tags/period-of-destabilization/</link>
+      <link>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/period-of-destabilization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://complexity-methods.github.io/tags/period-of-destabilization/</guid>
+
+      <guid>https://complexity-methods.github.io/courses/Archive/CMBS2019/tags/period-of-destabilization/</guid>
       <description></description>
     </item>
-    
+
   </channel>
 </rss>
