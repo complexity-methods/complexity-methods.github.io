@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagonal recurrence profiles on Complexity Methods for Behavioural Science</title>
+    <link>https://complexity-methods.github.io/tags/diagonal-recurrence-profiles/</link>
+    <description>Recent content in Diagonal recurrence profiles on Complexity Methods for Behavioural Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    
+	<atom:link href="https://complexity-methods.github.io/tags/diagonal-recurrence-profiles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Day 4 schedule</title>
+      <link>https://complexity-methods.github.io/days/day4/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://complexity-methods.github.io/days/day4/</guid>
+      <description>Today&amp;rsquo;s Topics:  Cross-RQA Quantifying synchronisation and coupling strength Analysis of leader-follower behavior and coupling direction Introduction to recurrence networks   Tentative time table for Day 2    When What Who Topics Notes     09.00-10.30 Quantifying interaction dynamics of coupled systems FH Cross-RQA    10.30-11.00 Coffee/Tea      11.00-12.00 Assignments  Cross-RQA, Diagonal recurrence profiles, Surrogate analysis    12.</description>
+    </item>
+    
+  </channel>
+</rss>
