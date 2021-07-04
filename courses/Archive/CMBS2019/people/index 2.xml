@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peoples on Complexity Methods for Behavioural Science</title>
+    <link>https://complexity-methods.github.io/people/</link>
+    <description>Recent content in Peoples on Complexity Methods for Behavioural Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    
+	<atom:link href="https://complexity-methods.github.io/people/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Information about Places &amp; People</title>
+      <link>https://complexity-methods.github.io/people/persons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://complexity-methods.github.io/people/persons/</guid>
+      <description>Location of lectures &amp;amp; lunches The location for all lectures is the Elinor Ostrom Building (Heyendaalseweg 141, 6525 AJ, Nijmegen) in room EOS 01.320.
+The location for all lunches is De Refter (Erasmusplein 3, 6525 HT, Nijmegen).
+ 
+
+Instructors &amp;amp; Assistants Fred Hasselman       
+My research and teaching centers on the development and application of theoretical frameworks and research methods to study of human behaviour, form the perspective of Complexity Science.</description>
+    </item>
+    
+  </channel>
+</rss>
