@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science</title>
+  <meta name="description" content="8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/images/foundations.png" />
+  <meta property="og:description" content="8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science" />
+  
+  <meta name="twitter:description" content="8.2 Categorical Cross-RQA | The Complex Systems Approach to Behavioural Science. This book is a practical guide to basic theory, models, methods and analyses that can be used to study human physiology, behaviour and cognition from the perspective of Complex Adaptive Systems and Networks." />
+  <meta name="twitter:image" content="/images/foundations.png" />
+
+<meta name="author" content="Fred Hasselman" />
+
+
+<meta name="date" content="2022-01-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="categorical-auto-rqa.html"/>
+<link rel="next" href="lvSystem.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">The Complex Systems Approach</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><strong>Course Guide</strong></a></li>
+<li class="chapter" data-level="" data-path="the-complex-systems-approach.html"><a href="the-complex-systems-approach.html"><i class="fa fa-check"></i><strong>The Complex Systems Approach </strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="learning-outcomes.html"><a href="learning-outcomes.html"><i class="fa fa-check"></i>Learning outcomes</a>
+<ul>
+<li class="chapter" data-level="" data-path="learning-outcomes.html"><a href="learning-outcomes.html#level-of-participant"><i class="fa fa-check"></i>Level of participant</a></li>
+<li class="chapter" data-level="" data-path="learning-outcomes.html"><a href="learning-outcomes.html#for-whom-are-these-courses-designed"><i class="fa fa-check"></i>For whom are these courses designed?</a></li>
+<li class="chapter" data-level="" data-path="learning-outcomes.html"><a href="learning-outcomes.html#admission-requirements"><i class="fa fa-check"></i>Admission requirements</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><strong>Literature</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="literature.html"><a href="literature.html#pre-course-literature"><i class="fa fa-check"></i>Pre-course literature:</a></li>
+<li class="chapter" data-level="" data-path="literature.html"><a href="literature.html#selected-chapters-from-these-books-will-be-made-available-so-you-can-make-a-personal-copy"><i class="fa fa-check"></i>Selected chapters from these books will be made available so you can make a personal copy:</a></li>
+<li class="chapter" data-level="" data-path="literature.html"><a href="literature.html#notes-about-this-book-and-the-assignments"><i class="fa fa-check"></i>Notes about this book and the assignments</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="schedule.html"><a href="schedule.html"><i class="fa fa-check"></i><strong>Schedule</strong></a></li>
+<li class="chapter" data-level="" data-path="we-used-r.html"><a href="we-used-r.html"><i class="fa fa-check"></i><strong>We used <code>R</code>!</strong></a></li>
+</ul></li>
+<li class="part"><span><b>I Introduction</b></span></li>
+<li class="chapter" data-level="1" data-path="a-quick-guide-to-scientific-rigour.html"><a href="a-quick-guide-to-scientific-rigour.html"><i class="fa fa-check"></i><b>1</b> <strong>A Quick Guide to Scientific Rigour</strong></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="rigorous-open-science.html"><a href="rigorous-open-science.html"><i class="fa fa-check"></i><b>1.1</b> Rigorous Open Science</a>
+<ul>
+<li class="chapter" data-level="" data-path="rigorous-open-science.html"><a href="rigorous-open-science.html#strong-inference"><i class="fa fa-check"></i>Strong Inference</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="theoretical-tunnelvision.html"><a href="theoretical-tunnelvision.html"><i class="fa fa-check"></i><b>1.2</b> Theoretical Tunnelvision</a>
+<ul>
+<li class="chapter" data-level="" data-path="theoretical-tunnelvision.html"><a href="theoretical-tunnelvision.html#so-whats-wrong"><i class="fa fa-check"></i>So? What’s wrong?</a></li>
+<li class="chapter" data-level="" data-path="theoretical-tunnelvision.html"><a href="theoretical-tunnelvision.html#no-such-thing-as-theory-free-facts"><i class="fa fa-check"></i>No such thing as theory-free ‘facts’</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="study-materials.html"><a href="study-materials.html"><i class="fa fa-check"></i><em>Study Materials</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials.html"><a href="study-materials.html#phenomena-theories-facts-and-laws"><i class="fa fa-check"></i>Phenomena, theories, facts and laws</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction-to-complexity-methods.html"><a href="introduction-to-complexity-methods.html"><i class="fa fa-check"></i><b>2</b> <strong>Introduction to Complexity Methods</strong></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="the-complex-systems-approach-1.html"><a href="the-complex-systems-approach-1.html"><i class="fa fa-check"></i><b>2.1</b> The Complex Systems Approach</a></li>
+<li class="chapter" data-level="2.2" data-path="ergodicity-and-the-measurment-problem.html"><a href="ergodicity-and-the-measurment-problem.html"><i class="fa fa-check"></i><b>2.2</b> Ergodicity and the Measurment Problem</a></li>
+<li class="chapter" data-level="2.3" data-path="component--vs.-interaction-dominant-dynamics.html"><a href="component--vs.-interaction-dominant-dynamics.html"><i class="fa fa-check"></i><b>2.3</b> Component- vs. Interaction-dominant Dynamics</a></li>
+<li class="chapter" data-level="2.4" data-path="a-behavioural-science-of-the-individual.html"><a href="a-behavioural-science-of-the-individual.html"><i class="fa fa-check"></i><b>2.4</b> A Behavioural Science of the Individual?</a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources.html"><a href="study-materials-and-resources.html"><i class="fa fa-check"></i><em>Study Materials and Resources</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials-and-resources.html"><a href="study-materials-and-resources.html#graphical-representation-of-complex-system-properties"><i class="fa fa-check"></i>Graphical representation of complex system properties</a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources.html"><a href="study-materials-and-resources.html#the-complexity-explorer-glossary"><i class="fa fa-check"></i>The Complexity Explorer Glossary</a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources.html"><a href="study-materials-and-resources.html#ted-talks"><i class="fa fa-check"></i>TED talks</a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources.html"><a href="study-materials-and-resources.html#systems-innovation-videos"><i class="fa fa-check"></i>Systems Innovation videos</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Mathematics of Change</b></span></li>
+<li class="chapter" data-level="3" data-path="introduction-to-the-mathematics-of-change.html"><a href="introduction-to-the-mathematics-of-change.html"><i class="fa fa-check"></i><b>3</b> <strong>Introduction to the Mathematics of Change</strong></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="its-a-line-its-a-plane.html"><a href="its-a-line-its-a-plane.html"><i class="fa fa-check"></i><b>3.1</b> <strong>It’s a line! It’s a plane!</strong></a></li>
+<li class="chapter" data-level="3.2" data-path="no-its-a-time-series.html"><a href="no-its-a-time-series.html"><i class="fa fa-check"></i><b>3.2</b> <strong>No! … It’s a time series!</strong></a></li>
+<li class="chapter" data-level="3.3" data-path="implementing-iterative-functions.html"><a href="implementing-iterative-functions.html"><i class="fa fa-check"></i><b>3.3</b> <strong>Implementing iterative functions</strong></a></li>
+<li class="chapter" data-level="3.4" data-path="numerical-integration-to-simulate-continuous-time.html"><a href="numerical-integration-to-simulate-continuous-time.html"><i class="fa fa-check"></i><b>3.4</b> <strong>Numerical integration to simulate continuous time</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="numerical-integration-to-simulate-continuous-time.html"><a href="numerical-integration-to-simulate-continuous-time.html#eulers-method-and-more"><i class="fa fa-check"></i>Euler’s method and more…</a></li>
+<li class="chapter" data-level="" data-path="numerical-integration-to-simulate-continuous-time.html"><a href="numerical-integration-to-simulate-continuous-time.html#analytical-solution"><i class="fa fa-check"></i>Analytical solution</a></li>
+<li class="chapter" data-level="" data-path="numerical-integration-to-simulate-continuous-time.html"><a href="numerical-integration-to-simulate-continuous-time.html#numerical-solution-discrete"><i class="fa fa-check"></i>Numerical solution (discrete)</a></li>
+<li class="chapter" data-level="3.4.1" data-path="numerical-integration-to-simulate-continuous-time.html"><a href="numerical-integration-to-simulate-continuous-time.html#euler-vs.-runge-kutta"><i class="fa fa-check"></i><b>3.4.1</b> Euler vs. Runge-Kutta</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="deterministic-chaos.html"><a href="deterministic-chaos.html"><i class="fa fa-check"></i><b>3.5</b> <strong>Deterministic Chaos</strong></a></li>
+<li class="chapter" data-level="3.6" data-path="advmodels.html"><a href="advmodels.html"><i class="fa fa-check"></i><b>3.6</b> <strong>Modeling interactions between processes and agents</strong></a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="advmodels.html"><a href="advmodels.html#the-competetive-lottka-volterra-equations"><i class="fa fa-check"></i><b>3.6.1</b> The Competetive Lottka-Volterra Equations</a></li>
+<li class="chapter" data-level="3.6.2" data-path="advmodels.html"><a href="advmodels.html#predator-prey-and-other-dynamics-as-agent-based-models"><i class="fa fa-check"></i><b>3.6.2</b> Predator-Prey (and other) dynamics as Agent Based Models</a></li>
+<li class="chapter" data-level="3.6.3" data-path="advmodels.html"><a href="advmodels.html#the-dynamic-field-model"><i class="fa fa-check"></i><b>3.6.3</b> The dynamic field model</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-1.html"><a href="study-materials-and-resources-1.html"><i class="fa fa-check"></i><em>Study Materials and Resources</em></a>
+<ul>
+<li class="chapter" data-level="3.6.4" data-path="study-materials-and-resources-1.html"><a href="study-materials-and-resources-1.html#differential-equations"><i class="fa fa-check"></i><b>3.6.4</b> Differential equations</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>III Basic (Nonlinear) Time Series Analysis</b></span></li>
+<li class="chapter" data-level="4" data-path="basic-time-series-analysis.html"><a href="basic-time-series-analysis.html"><i class="fa fa-check"></i><b>4</b> <strong>Basic Time Series Analysis</strong></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="always-plot-your-data.html"><a href="always-plot-your-data.html"><i class="fa fa-check"></i><b>4.1</b> <strong>Always plot your data!</strong></a></li>
+<li class="chapter" data-level="4.2" data-path="correlation-functions.html"><a href="correlation-functions.html"><i class="fa fa-check"></i><b>4.2</b> <strong>Correlation Functions</strong></a></li>
+<li class="chapter" data-level="4.3" data-path="autoregressive-models.html"><a href="autoregressive-models.html"><i class="fa fa-check"></i><b>4.3</b> <strong>Autoregressive models</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="basic-nonlinear-time-series-analysis.html"><a href="basic-nonlinear-time-series-analysis.html"><i class="fa fa-check"></i><b>5</b> <strong>Basic Nonlinear Time Series Analysis</strong></a>
+<ul>
+<li class="chapter" data-level="5.0.1" data-path="basic-nonlinear-time-series-analysis.html"><a href="basic-nonlinear-time-series-analysis.html#intuitive-notion-of-fractal-dimension"><i class="fa fa-check"></i><b>5.0.1</b> <strong>Intuitive notion of Fractal Dimension</strong></a></li>
+<li class="chapter" data-level="5.0.2" data-path="basic-nonlinear-time-series-analysis.html"><a href="basic-nonlinear-time-series-analysis.html#coloured-noise"><i class="fa fa-check"></i><b>5.0.2</b> <strong>Coloured noise</strong></a></li>
+<li class="chapter" data-level="5.1" data-path="relative-roughness.html"><a href="relative-roughness.html"><i class="fa fa-check"></i><b>5.1</b> <strong>Relative Roughness</strong></a></li>
+<li class="chapter" data-level="5.2" data-path="entropy.html"><a href="entropy.html"><i class="fa fa-check"></i><b>5.2</b> <strong>Entropy</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="entropy.html"><a href="entropy.html#physical-information-and-entropy"><i class="fa fa-check"></i>Physical Information and Entropy</a></li>
+<li class="chapter" data-level="" data-path="entropy.html"><a href="entropy.html#entropy-in-time-series"><i class="fa fa-check"></i>Entropy in time series</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="other-measures-in-casnet.html"><a href="other-measures-in-casnet.html"><i class="fa fa-check"></i><b>5.3</b> <strong>Other measures in <em>casnet</em></strong></a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-2.html"><a href="study-materials-and-resources-2.html"><i class="fa fa-check"></i><em>Study Materials and Resources</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-2.html"><a href="study-materials-and-resources-2.html#notes-on-entropy"><i class="fa fa-check"></i>Notes on Entropy</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>IV Scaling Phenomena - Fluctuation Analyses</b></span></li>
+<li class="chapter" data-level="6" data-path="fluctuation-analyses-global-scaling.html"><a href="fluctuation-analyses-global-scaling.html"><i class="fa fa-check"></i><b>6</b> <strong>Fluctuation Analyses: Global Scaling</strong></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="power-spectral-density-psd-slope.html"><a href="power-spectral-density-psd-slope.html"><i class="fa fa-check"></i><b>6.1</b> <strong>Power Spectral Density (PSD) slope</strong></a></li>
+<li class="chapter" data-level="6.2" data-path="standardised-dispersion-analysis-sda.html"><a href="standardised-dispersion-analysis-sda.html"><i class="fa fa-check"></i><b>6.2</b> <strong>Standardised Dispersion Analysis (SDA)</strong></a></li>
+<li class="chapter" data-level="6.3" data-path="detrended-fluctuation-analysis-dfa.html"><a href="detrended-fluctuation-analysis-dfa.html"><i class="fa fa-check"></i><b>6.3</b> <strong>Detrended Fluctuation Analysis (DFA)</strong></a></li>
+<li class="chapter" data-level="6.4" data-path="other-varieties-of-fluctuation-analysis.html"><a href="other-varieties-of-fluctuation-analysis.html"><i class="fa fa-check"></i><b>6.4</b> <strong>Other varieties of fluctuation analysis</strong></a></li>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-3.html"><a href="study-materials-and-resources-3.html"><i class="fa fa-check"></i><em>Study Materials and Resources</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-3.html"><a href="study-materials-and-resources-3.html#systems-innovation"><i class="fa fa-check"></i>Systems Innovation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="fluctuation-analyses-local-scaling.html"><a href="fluctuation-analyses-local-scaling.html"><i class="fa fa-check"></i><b>7</b> <strong>Fluctuation Analyses: Local Scaling</strong></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="multi-fractal-geometry-in-time-series.html"><a href="multi-fractal-geometry-in-time-series.html"><i class="fa fa-check"></i><b>7.1</b> <strong>Multi-fractal geometry in time series</strong></a></li>
+<li class="chapter" data-level="7.2" data-path="multi-fractal-dfa.html"><a href="multi-fractal-dfa.html"><i class="fa fa-check"></i><b>7.2</b> <strong>Multi-fractal DFA</strong></a></li>
+<li class="chapter" data-level="7.3" data-path="the-wavelet-transform-modulus-maxima-wtmm.html"><a href="the-wavelet-transform-modulus-maxima-wtmm.html"><i class="fa fa-check"></i><b>7.3</b> <strong>The Wavelet Transform Modulus Maxima (WTMM)</strong></a></li>
+<li class="chapter" data-level="7.4" data-path="multi-fractal-spectrum-measures.html"><a href="multi-fractal-spectrum-measures.html"><i class="fa fa-check"></i><b>7.4</b> <strong>Multi-fractal Spectrum Measures</strong></a></li>
+</ul></li>
+<li class="part"><span><b>V Recurrence Quantification Analysis</b></span></li>
+<li class="chapter" data-level="8" data-path="unordered-categorical-data.html"><a href="unordered-categorical-data.html"><i class="fa fa-check"></i><b>8</b> <strong>Unordered Categorical Data</strong></a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="categorical-auto-rqa.html"><a href="categorical-auto-rqa.html"><i class="fa fa-check"></i><b>8.1</b> <strong>Categorical Auto-RQA</strong></a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="categorical-auto-rqa.html"><a href="categorical-auto-rqa.html#auto-rqa-measures"><i class="fa fa-check"></i><b>8.1.1</b> Auto-RQA Measures</a></li>
+<li class="chapter" data-level="8.1.2" data-path="categorical-auto-rqa.html"><a href="categorical-auto-rqa.html#theiler"><i class="fa fa-check"></i><b>8.1.2</b> The theiler window</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="categorical-cross-rqa.html"><a href="categorical-cross-rqa.html"><i class="fa fa-check"></i><b>8.2</b> <strong>Categorical Cross-RQA</strong></a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="categorical-cross-rqa.html"><a href="categorical-cross-rqa.html#anisotropic-and-asymmetric-categorical-rqa-measures"><i class="fa fa-check"></i><b>8.2.1</b> Anisotropic and asymmetric categorical RQA measures</a></li>
+<li class="chapter" data-level="8.2.2" data-path="categorical-cross-rqa.html"><a href="categorical-cross-rqa.html#drp"><i class="fa fa-check"></i><b>8.2.2</b> Diagonal (Cross) Recurrence Profiles</a></li>
+<li class="chapter" data-level="8.2.3" data-path="categorical-cross-rqa.html"><a href="categorical-cross-rqa.html#chromatic-rqa-measures"><i class="fa fa-check"></i><b>8.2.3</b> Chromatic RQA measures</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="lvSystem.html"><a href="lvSystem.html"><i class="fa fa-check"></i><b>9</b> <strong>Continuous Data</strong></a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="psr.html"><a href="psr.html"><i class="fa fa-check"></i><b>9.1</b> <strong>Phase Space Reconstruction</strong></a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="psr.html"><a href="psr.html#choosing-an-embedding-lag"><i class="fa fa-check"></i><b>9.1.1</b> Choosing an embedding lag</a></li>
+<li class="chapter" data-level="9.1.2" data-path="psr.html"><a href="psr.html#false-nearest-neighbor-analysis"><i class="fa fa-check"></i><b>9.1.2</b> False Nearest Neighbor analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="continous-rqa-measures.html"><a href="continous-rqa-measures.html"><i class="fa fa-check"></i><b>9.2</b> <strong>Continous RQA measures</strong></a></li>
+<li class="chapter" data-level="9.3" data-path="MdRQA.html"><a href="MdRQA.html"><i class="fa fa-check"></i><b>9.3</b> <strong>Multidimensional RQA</strong></a></li>
+<li class="chapter" data-level="9.4" data-path="continuous-cross-rqa.html"><a href="continuous-cross-rqa.html"><i class="fa fa-check"></i><b>9.4</b> <strong>Continuous Cross-RQA</strong></a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="continuous-cross-rqa.html"><a href="continuous-cross-rqa.html#anisotropic-and-asymmetric-continuous-rqa-measures"><i class="fa fa-check"></i><b>9.4.1</b> Anisotropic and asymmetric continuous RQA measures</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="marwan.html"><a href="marwan.html"><i class="fa fa-check"></i><b>10</b> <strong>An R interface to Marwan’s commandline recurrence plots</strong></a></li>
+<li class="chapter" data-level="11" data-path="computational-load-the-python-solution-pyrqa.html"><a href="computational-load-the-python-solution-pyrqa.html"><i class="fa fa-check"></i><b>11</b> <strong>Computational load: The Python solution [PyRQA]</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="computational-load-the-python-solution-pyrqa.html"><a href="computational-load-the-python-solution-pyrqa.html#setup-the-environment"><i class="fa fa-check"></i>Setup the environment</a></li>
+</ul></li>
+<li class="part"><span><b>VI Multivariate Timeseries Analysis</b></span></li>
+<li class="chapter" data-level="12" data-path="vector-auto-regression-var.html"><a href="vector-auto-regression-var.html"><i class="fa fa-check"></i><b>12</b> <strong>Vector Auto Regression (VAR)</strong></a></li>
+<li class="chapter" data-level="13" data-path="dynamic-complexity.html"><a href="dynamic-complexity.html"><i class="fa fa-check"></i><b>13</b> <strong>Dynamic Complexity</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-4.html"><a href="study-materials-and-resources-4.html"><i class="fa fa-check"></i><em>Study Materials and Resources</em></a>
+<ul>
+<li class="chapter" data-level="" data-path="study-materials-and-resources-4.html"><a href="study-materials-and-resources-4.html#systems-innovation-1"><i class="fa fa-check"></i>Systems Innovation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="graph-theory-and-complex-network-analysis.html"><a href="graph-theory-and-complex-network-analysis.html"><i class="fa fa-check"></i><b>14</b> <strong>Graph Theory and Complex Network Analysis</strong></a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="recurrence-networks.html"><a href="recurrence-networks.html"><i class="fa fa-check"></i><b>14.1</b> <strong>Recurrence Networks</strong></a></li>
+<li class="chapter" data-level="14.2" data-path="networks-based-on-multidimensional-rqa.html"><a href="networks-based-on-multidimensional-rqa.html"><i class="fa fa-check"></i><b>14.2</b> <strong>Networks based on Multidimensional RQA</strong></a></li>
+<li class="chapter" data-level="14.3" data-path="transition-networks.html"><a href="transition-networks.html"><i class="fa fa-check"></i><b>14.3</b> <strong>Transition Networks</strong></a></li>
+</ul></li>
+<li class="appendix"><span><b>APPENDICES</b></span></li>
+<li class="chapter" data-level="A" data-path="some-notes-on-using-r.html"><a href="some-notes-on-using-r.html"><i class="fa fa-check"></i><b>A</b> <strong>Some Notes on Using <code>R</code></strong></a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="new-to-r.html"><a href="new-to-r.html"><i class="fa fa-check"></i><b>A.1</b> <strong>New to <code>R</code>?</strong></a></li>
+<li class="chapter" data-level="A.2" data-path="tutorials.html"><a href="tutorials.html"><i class="fa fa-check"></i><b>A.2</b> <strong>Getting started with <code>R</code> tutorials</strong></a></li>
+<li class="chapter" data-level="A.3" data-path="not-new-to-r.html"><a href="not-new-to-r.html"><i class="fa fa-check"></i><b>A.3</b> <strong>Not new to <code>R</code>?</strong></a></li>
+<li class="chapter" data-level="A.4" data-path="time-series-analyses-in-r.html"><a href="time-series-analyses-in-r.html"><i class="fa fa-check"></i><b>A.4</b> <strong>Time series analyses in R</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="time-series-analyses-in-r.html"><a href="time-series-analyses-in-r.html#installing-casnet"><i class="fa fa-check"></i><strong>Installing casnet</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="plotTS.html"><a href="plotTS.html"><i class="fa fa-check"></i><b>B</b> <strong>Working with time series in R</strong></a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="plotting-a-ts-object-as-a-time-series.html"><a href="plotting-a-ts-object-as-a-time-series.html"><i class="fa fa-check"></i><b>B.1</b> Plotting a <code>ts</code> object as a time series</a></li>
+<li class="chapter" data-level="B.2" data-path="plotting-multiple-time-series-in-one-figure.html"><a href="plotting-multiple-time-series-in-one-figure.html"><i class="fa fa-check"></i><b>B.2</b> Plotting multiple time series in one figure</a></li>
+<li class="chapter" data-level="B.3" data-path="the-return-plot.html"><a href="the-return-plot.html"><i class="fa fa-check"></i><b>B.3</b> The return plot</a></li>
+<li class="chapter" data-level="B.4" data-path="using-ggplot2.html"><a href="using-ggplot2.html"><i class="fa fa-check"></i><b>B.4</b> Using <code>ggplot2</code></a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="Missing.html"><a href="Missing.html"><i class="fa fa-check"></i><b>C</b> <strong>Dealing with Missing Data</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="Missing.html"><a href="Missing.html#data-with-missing-values"><i class="fa fa-check"></i>Data with missing values</a></li>
+<li class="chapter" data-level="C.1" data-path="univariate-imputation.html"><a href="univariate-imputation.html"><i class="fa fa-check"></i><b>C.1</b> Univariate imputation</a>
+<ul>
+<li class="chapter" data-level="" data-path="univariate-imputation.html"><a href="univariate-imputation.html#linear-interpolation"><i class="fa fa-check"></i>Linear interpolation</a></li>
+<li class="chapter" data-level="" data-path="univariate-imputation.html"><a href="univariate-imputation.html#kalman-filter"><i class="fa fa-check"></i>Kalman filter</a></li>
+</ul></li>
+<li class="chapter" data-level="C.2" data-path="multiple-imputation.html"><a href="multiple-imputation.html"><i class="fa fa-check"></i><b>C.2</b> Multiple imputation</a>
+<ul>
+<li class="chapter" data-level="" data-path="multiple-imputation.html"><a href="multiple-imputation.html#auto-select-method"><i class="fa fa-check"></i>Auto-select method</a></li>
+<li class="chapter" data-level="" data-path="multiple-imputation.html"><a href="multiple-imputation.html#classification-regression-trees"><i class="fa fa-check"></i>Classification &amp; regression trees</a></li>
+</ul></li>
+<li class="chapter" data-level="C.3" data-path="compare-different-imputation-methods.html"><a href="compare-different-imputation-methods.html"><i class="fa fa-check"></i><b>C.3</b> Compare different imputation methods</a>
+<ul>
+<li class="chapter" data-level="" data-path="compare-different-imputation-methods.html"><a href="compare-different-imputation-methods.html#visual-inspection"><i class="fa fa-check"></i>Visual inspection</a></li>
+<li class="chapter" data-level="" data-path="compare-different-imputation-methods.html"><a href="compare-different-imputation-methods.html#effect-on-analysis-results"><i class="fa fa-check"></i>Effect on analysis results</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="Terms.html"><a href="Terms.html"><i class="fa fa-check"></i><b>D</b> <strong>List of terms</strong></a>
+<ul>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Adap1"><i class="fa fa-check"></i><strong>Adaptive Behaviour</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Anal2"><i class="fa fa-check"></i><strong>Analytic solution</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Attr3"><i class="fa fa-check"></i><strong>Attractor</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Basi4"><i class="fa fa-check"></i><strong>Basin of attraction</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Beha5"><i class="fa fa-check"></i><strong>Behaviour (of a dynamic system)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Bifu6"><i class="fa fa-check"></i><strong>Bifurcation</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Bifu7"><i class="fa fa-check"></i><strong>Bifurcation diagram</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Cata8"><i class="fa fa-check"></i><strong>Catastrophe flags</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Cata9"><i class="fa fa-check"></i><strong>Catastrophe theory</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Comp10"><i class="fa fa-check"></i><strong>Complex Network</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Comp11"><i class="fa fa-check"></i><strong>Complex system</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Comp12"><i class="fa fa-check"></i><strong>Complexity science</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Comp13"><i class="fa fa-check"></i><strong>Component dominant dynamics</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Cont14"><i class="fa fa-check"></i><strong>Control parameter</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Crit15"><i class="fa fa-check"></i><strong>Critical fluctuations</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Crit16"><i class="fa fa-check"></i><strong>Critical slowing down</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Dete17"><i class="fa fa-check"></i><strong>Deterministic Chaos</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Diff18"><i class="fa fa-check"></i><strong>Difference equation</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Diff19"><i class="fa fa-check"></i><strong>Differential equation</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Dime20"><i class="fa fa-check"></i><strong>Dimension</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Dime21"><i class="fa fa-check"></i><strong>Dimensions of a system</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Dyna22"><i class="fa fa-check"></i><strong>Dynamic system</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Earl23"><i class="fa fa-check"></i><strong>Early warning signals</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Effe24"><i class="fa fa-check"></i><strong>Effective Complexity</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Embe25"><i class="fa fa-check"></i><strong>Embedding Dimension</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Emer26"><i class="fa fa-check"></i><strong>Emergence</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Entr27"><i class="fa fa-check"></i><strong>Entropy</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Epig28"><i class="fa fa-check"></i><strong>Epigenetic landscape (potential landscape)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Expe29"><i class="fa fa-check"></i><strong>Experienced event</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#flow30"><i class="fa fa-check"></i><strong>flow ~</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Frac31"><i class="fa fa-check"></i><strong>Fractal</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Frac32"><i class="fa fa-check"></i><strong>Fractal Dimension</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Grap33"><i class="fa fa-check"></i><strong>Graph theory</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Haus34"><i class="fa fa-check"></i><strong>Hausdorff Dimension</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Holi35"><i class="fa fa-check"></i><strong>Holism (epistemic)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Idio36"><i class="fa fa-check"></i><strong>Idiographic approach</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Info37"><i class="fa fa-check"></i><strong>Information (quantity)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Init38"><i class="fa fa-check"></i><strong>Initial condition</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Inte39"><i class="fa fa-check"></i><strong>Interaction dominant dynamics</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Iter40"><i class="fa fa-check"></i><strong>Iteration</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Iter41"><i class="fa fa-check"></i><strong>Iterative function</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Iter42"><i class="fa fa-check"></i><strong>Iterative system</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Larg43"><i class="fa fa-check"></i><strong>Largest Lyapunov exponent</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Limi44"><i class="fa fa-check"></i><strong>Limit cycle</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Limi45"><i class="fa fa-check"></i><strong>Limit points</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Line46"><i class="fa fa-check"></i><strong>Linear function of predictors</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Line47"><i class="fa fa-check"></i><strong>Linear function of time</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#map48"><i class="fa fa-check"></i><strong>map …</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Nonl49"><i class="fa fa-check"></i><strong>Nonlinear dynamics</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Orbi50"><i class="fa fa-check"></i><strong>Orbit (trajectory)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Orde51"><i class="fa fa-check"></i><strong>Order</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Orde52"><i class="fa fa-check"></i><strong>Order Parameter</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Peri53"><i class="fa fa-check"></i><strong>Period-doubling</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Phas54"><i class="fa fa-check"></i><strong>Phase portrait</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Phas55"><i class="fa fa-check"></i><strong>Phase space</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Phas56"><i class="fa fa-check"></i><strong>Phase transition</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Pote57"><i class="fa fa-check"></i><strong>Potential function</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Powe58"><i class="fa fa-check"></i><strong>Power-law scaling</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Recu59"><i class="fa fa-check"></i><strong>Recursive process</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Rela60"><i class="fa fa-check"></i><strong>Relaxation time</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Repe61"><i class="fa fa-check"></i><strong>Repellors</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Retu62"><i class="fa fa-check"></i><strong>Return map</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Sadd63"><i class="fa fa-check"></i><strong>Saddle point</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Scal64"><i class="fa fa-check"></i><strong>Scale free network</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Self65"><i class="fa fa-check"></i><strong>Self-affinity</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Self66"><i class="fa fa-check"></i><strong>Self-similarity</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Sens67"><i class="fa fa-check"></i><strong>Sensitive dependence on initial conditions</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Smal68"><i class="fa fa-check"></i><strong>Small world network</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Stat69"><i class="fa fa-check"></i><strong>State</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Stat70"><i class="fa fa-check"></i><strong>State space</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Stat71"><i class="fa fa-check"></i><strong>State space (phase space)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Stra72"><i class="fa fa-check"></i><strong>Strange attractor</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Syst73"><i class="fa fa-check"></i><strong>System</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Time74"><i class="fa fa-check"></i><strong>Time series</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Traj75"><i class="fa fa-check"></i><strong>Trajectory (orbit)</strong></a></li>
+<li class="chapter" data-level="" data-path="Terms.html"><a href="Terms.html#Tran76"><i class="fa fa-check"></i><strong>Transient time (transient behaviour)</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The Complex Systems Approach to Behavioural Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="categorical-cross-rqa" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> <strong>Categorical Cross-RQA</strong><a href="categorical-cross-rqa.html#categorical-cross-rqa" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>It is possible to evaluate the recurrences between 2 different time series, in which case the analysis is called Cross-Recurrence Analysis. The analysis is used to examine synchronisation and coupling dynamics, but the principle of quantification is exactly the same as for Auto-RQA, for all lags of time, count whether a value is recurring.</p>
+<p>Consider another poem about bears, this time, we count down:</p>
+<pre><code>Five little bears
+Heard a loud roar
+One ran away
+Then there were four!
+
+Four little bears
+Climbing up a tree
+One slid down
+Then there were three!
+
+Three little bears
+Deciding what to do
+One fell asleep
+Then there were two!
+
+Two little bears
+Having lots of fun
+One went home
+Then there was one!</code></pre>
+<p>Let’s examine whether these two poems share similar patterns. The poems are of equal length (57 words), but because they contain different words, the values assigned to the unique words must index the unique words from both poems. This can again be done using the <code>casnet</code> function <code>as.numeric_discrete()</code>. Setting <code>sortUnique = TRUE</code>, will first sort the words (alphabetically) before they are assigned a number.</p>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="categorical-cross-rqa.html#cb46-1" aria-hidden="true" tabindex="-1"></a>bear2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;five little bears heard a loud roar one ran away then there were four four little bears climbing up a tree one slid down then there were three three little bears deciding what to do one fell asleep then there were two two little bears having a lot of fun one went home then there was one&quot;</span>)</span>
+<span id="cb46-2"><a href="categorical-cross-rqa.html#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="categorical-cross-rqa.html#cb46-3" aria-hidden="true" tabindex="-1"></a>bear_updown <span class="ot">&lt;-</span> <span class="fu">as.numeric_discrete</span>(<span class="fu">c</span>(<span class="fu">unlist</span>(<span class="fu">strsplit</span>(bear1,<span class="st">&quot; &quot;</span>)),<span class="fu">unlist</span>(<span class="fu">strsplit</span>(bear2,<span class="st">&quot; &quot;</span>))), <span class="at">sortUnique =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb46-4"><a href="categorical-cross-rqa.html#cb46-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-5"><a href="categorical-cross-rqa.html#cb46-5" aria-hidden="true" tabindex="-1"></a>bear_up  <span class="ot">&lt;-</span> bear_updown[<span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(bear_up)]</span>
+<span id="cb46-6"><a href="categorical-cross-rqa.html#cb46-6" aria-hidden="true" tabindex="-1"></a>bear_down <span class="ot">&lt;-</span> bear_updown[(<span class="fu">length</span>(bear_up)<span class="sc">+</span><span class="dv">1</span>)<span class="sc">:</span><span class="fu">length</span>(bear_updown)]</span>
+<span id="cb46-7"><a href="categorical-cross-rqa.html#cb46-7" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb46-8"><a href="categorical-cross-rqa.html#cb46-8" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(bear_up, <span class="at">type =</span> <span class="st">&quot;b&quot;</span>, <span class="at">xlab =</span> <span class="st">&quot;Time&quot;</span>, <span class="at">ylab =</span> <span class="st">&quot;Unique Word&quot;</span>, <span class="at">pch =</span> <span class="dv">16</span>)</span>
+<span id="cb46-9"><a href="categorical-cross-rqa.html#cb46-9" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(bear_down, <span class="at">type =</span> <span class="st">&quot;b&quot;</span>, <span class="at">col =</span> <span class="st">&quot;red&quot;</span>, <span class="at">lty=</span><span class="dv">2</span>, <span class="at">pch =</span> <span class="dv">16</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:bearstory2"></span>
+<img src="CSA-Book_files/figure-html/bearstory2-1.png" alt="Nominal Time Series." width="99%" />
+<p class="caption">
+Figure 8.2: Nominal Time Series.
+</p>
+</div>
+<p>The plot of the two series reveals that at some moments the same words occur at exactly the same time, because the lines overlap. What is less clear to see is whether there are patterns that are repeated with some delay.</p>
+<p><img src="CSA-Book_files/figure-html/CRP-1.png" width="99%" style="display: block; margin: auto;" /></p>
+<p>This is a <em>Cross Recurrence Plot</em>, it is no longer symmetrical around the main diagonal, which is now called the <em>Line of Synchronisation</em> (LOS).
+To get the <em>Cross Recurrence Matrix</em>, simply add the second time series as argument <code>y2</code> to function <code>rp()</code>. The function <code>rp_plot()</code> will use the attributes attached to the <code>Matrix</code> object generated by <code>rp()</code> to determine the context of the analysis (<em>Auto</em> or <em>Cross</em>).</p>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="categorical-cross-rqa.html#cb47-1" aria-hidden="true" tabindex="-1"></a>CRP <span class="ot">&lt;-</span> <span class="fu">rp</span>(<span class="at">y1 =</span> bear_up, <span class="at">y2 =</span> bear_down, <span class="at">emLag =</span> <span class="dv">1</span>, <span class="at">emDim =</span> <span class="dv">1</span>, <span class="at">emRad =</span> <span class="dv">0</span>)</span>
+<span id="cb47-2"><a href="categorical-cross-rqa.html#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="categorical-cross-rqa.html#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rp_plot</span>(CRP, <span class="at">plotDimensions =</span> <span class="cn">TRUE</span>, <span class="at">drawDiagonal =</span> <span class="cn">TRUE</span>, <span class="at">drawGrid =</span> <span class="cn">TRUE</span>, <span class="at">courseGrain =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<p><img src="CSA-Book_files/figure-html/bear2RP-1.png" width="99%" style="display: block; margin: auto;" /></p>
+<p>This now is a <em>Cross-Recurrence Quantification Analysis</em>, because we are evaluating recurrences across all lags of time between 2 time series. The interpretation of a recurring point and the line structures are now in terms synchronisation or coupling strength: A value or larger pattern observed in one time series may be observed to recur in the other time series. These recurrences can even be used to infer a <em>direction</em> of the coupling in terms of specific patterns of ‘leading’ or ‘following’ the interaction (see the section on <a href="categorical-cross-rqa.html#drp"><strong>Diagonal Recurrence Profiles</strong></a>).</p>
+<p>The main output of the <code>rp_measures()</code> function is very similar to that of Auto-RQA.</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="categorical-cross-rqa.html#cb48-1" aria-hidden="true" tabindex="-1"></a>bear_updown_out <span class="ot">&lt;-</span> <span class="fu">rp_measures</span>(CRP, <span class="at">silent =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<pre><code>&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~
+&gt;  Global Measures
+&gt;   Global Max.points N.points     RR Singular Divergence Repetitiveness
+&gt; 1 Matrix       3249      102 0.0314       21      0.143          0.296
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;        Lines N.lines N.points Measure  Rate Mean Max. ENT ENT_rel   CoV
+&gt; 1   Diagonal      26       81     DET 0.794 3.12    7 1.1   0.272 0.532
+&gt; 2   Vertical       6       12   V LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 3 Horizontal       6       12   H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 4  V+H Total      12       24 V+H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~</code></pre>
+<p>The output is again grouped into <em>Global Measures</em> and <em>Line-based Measures</em>. There are 102 recurring points in the matrix, now the main diagonal has to be included, points that fall on the main diagonal If we divide this on the size of the matrix (<code>57 * 57 = 3192</code>), we get a recurrence rate of 3.14%. There are 21 recurrent points that are not on any line.</p>
+<div id="anisotropic-and-asymmetric-categorical-rqa-measures" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> Anisotropic and asymmetric categorical RQA measures<a href="categorical-cross-rqa.html#anisotropic-and-asymmetric-categorical-rqa-measures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To see the asymmetry (or <a href="https://en.wikipedia.org/wiki/Anisotropy">anisotropy</a>) in the plot, look at the first few columns and the last few rows of the matrix. There is also a lot of symmetry in the plot. If these were data from 2 systems interacting, one could say their dynamics are probably coupled. In the present case the similarity occurs because the basic structure of the 2 poems is the same.</p>
+<p>There are two sets of measures that quantify the asymmetry in the CRP:</p>
+<ul>
+<li><p><em>Anisotropy ratio based on Horizontal and Vertical line measures</em> <span class="citation">(<a href="references-1.html#ref-cox2016a" role="doc-biblioref">Cox, Steen, Guevara, Jonge-Hoekstra, &amp; Dijk, 2016</a>)</span>: The ratios are calculated as <code>(horizontal - vertical) / (horizontal + vertical)</code>, for example the anisotropic Laminarity ratio is: <code>(H LAM - V LAM) / (H LAM + V LAM)</code>. A value of <code>0</code> means no anisotropy, negative ratios indicate the measures based on vertical lines had higher values, positive ratios indicate the measures based on horizontal lines had higher values. To get these measures in <code>casnet::rp_measures()</code>, set the argument <code>anisotropyHV = TRUE</code>.</p></li>
+<li><p><em>Asymmetry ratio based on Upper and Lower triangles</em>: The ratios are calculated as <code>(upper - lower) / (upper + lower)</code>, for example the asymmetric Determinism ratio is: <code>(DET upper triangle) - (DET lower triangle) / (DET upper triangle) + (DET lower triangle)</code>. A value of <code>0</code> means no asymmetry, negative ratios indicate the measures based on the lower triangle had the higher values, positive ratios indicate measures based on the upper triangle had higher values. To get these measures in <code>casnet::rp_measures()</code> set the argument <code>asymmetryUL = TRUE</code>.</p></li>
+</ul>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="categorical-cross-rqa.html#cb50-1" aria-hidden="true" tabindex="-1"></a>bear_updown_out <span class="ot">&lt;-</span> <span class="fu">rp_measures</span>(CRP, <span class="at">anisotropyHV =</span> <span class="cn">TRUE</span>, <span class="at">silent =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<pre><code>&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~
+&gt;  Global Measures
+&gt;   Global Max.points N.points     RR Singular Divergence Repetitiveness
+&gt; 1 Matrix       3249      102 0.0314       21      0.143          0.296
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;        Lines N.lines N.points Measure  Rate Mean Max. ENT ENT_rel   CoV
+&gt; 1   Diagonal      26       81     DET 0.794 3.12    7 1.1   0.272 0.532
+&gt; 2   Vertical       6       12   V LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 3 Horizontal       6       12   H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 4  V+H Total      12       24 V+H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 
+&gt; 
+&gt; Horizontal/Vertical line anisotropy
+&gt; 
+&gt;               Ratio N.lines N.points Measure Rate Mean Max ENT
+&gt; 1 H/V line measures       0        1     LAM    0    0   0 NaN
+&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~</code></pre>
+<p>The anisotropic ratios show there are an equal amount of horizontal and vertical lines in the plot, so the Laminarity Rate, Mean, Max and Entropy are also equal and the ratios are all <code>0</code>. In the current context, the equal number of horizontal and vertical lines can be understood from the structure of the 2 poems, they both contain the repetition of the same counting words, for example: <code>then there were three three little bears</code>.</p>
+<p>It is not the case that the two poems are each others mirror opposites, so some asymmetry should be expected, it’s apparently not present in the ratio between horizontal and vertical lines. In the present case we know the upper triangle represents recurrent points (repeated words) that occur at an earlier moment in “time” (position in the poem) in the counting up version which is on on the x-axis. The recurrent points in the lower triangle represent repeated words that occurred at an earlier position in the counting down version of the poem on the y-axis. In a synchronisation study one could use the ratios of RQA measures from the upper and lower triangle to indicate a coupling direction.</p>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="categorical-cross-rqa.html#cb52-1" aria-hidden="true" tabindex="-1"></a>bear_updown_out <span class="ot">&lt;-</span> <span class="fu">rp_measures</span>(CRP, <span class="at">asymmetryUL =</span> <span class="cn">TRUE</span>, <span class="at">silent =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<pre><code>&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~
+&gt;  Global Measures
+&gt;   Global Max.points N.points     RR Singular Divergence Repetitiveness
+&gt; 1 Matrix       3249      102 0.0314       21      0.143          0.296
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;        Lines N.lines N.points Measure  Rate Mean Max. ENT ENT_rel   CoV
+&gt; 1   Diagonal      26       81     DET 0.794 3.12    7 1.1   0.272 0.532
+&gt; 2   Vertical       6       12   V LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 3 Horizontal       6       12   H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 4  V+H Total      12       24 V+H LAM 0.118 2.00    2 0.0   0.000 0.000
+&gt; 
+&gt; 
+&gt; Upper/Lower triangle asymmetry
+&gt; 
+&gt;  Global Measures
+&gt;    Global.Ratio N.points      RR Singular Divergence Repetetiveness
+&gt; 1 U/L of points  -0.0159 -0.0159    0.182          0         0.0577
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;   Line.ratio N.lines N.points Measure    Rate    Mean Max     ENT
+&gt; 1    D lines -0.0577    0.891     DET -0.0577 0.00483   0 0.00944
+&gt; 2    V lines  0.0000    1.000   V LAM  0.0000 0.00000   0     NaN
+&gt; 3    H lines  0.0000    1.000   H LAM  0.0000 0.00000   0     NaN
+&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~</code></pre>
+<p>The asymmetry ratios based on the upper and lower triangle indeed indicate asymmetry of the Global Measures and Diagonal line-based measures. There are more recurrent points in the lower triangle (64) than in the upper triangle (62). There are more singular points the upper triangle and determinism is higher in the lower triangle.</p>
+</div>
+<div id="drp" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Diagonal (Cross) Recurrence Profiles<a href="categorical-cross-rqa.html#drp" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The diagonal recurrence profile (DRP) or more appropriate, the diagonal cross-recurrence profile (DCRP), is a representation of the distribution of recurrent points in a band around the line of synchronisation The figure below is from <span class="citation">(<a href="references-1.html#ref-wallot2018" role="doc-biblioref">Wallot &amp; Leonardi, 2018</a>)</span>), it shows how the profile is calculated, the recurrence rate for each of the diagonals in the window is calculated.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:image"></span>
+<img src="https://www.frontiersin.org/files/Articles/365352/fpsyg-09-02232-HTML/image_m/fpsyg-09-02232-g008.jpg" alt="The Diagonal Recurrence Profile. [Fig. 8 from Wallot &amp; Leonardi(2018)]" width="600" />
+<p class="caption">
+Figure 8.3: The Diagonal Recurrence Profile. [Fig. 8 from Wallot &amp; Leonardi(2018)]
+</p>
+</div>
+<p>The profile can be used to determine whether one time series is “leading”, or “following” the other series. A more general term would be <strong>coupling direction</strong>. In the current example, there are no real coupling dynamics between the poems, but there is a shared structure between them.</p>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="categorical-cross-rqa.html#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rp_diagProfile</span>(CRP, <span class="at">diagWin =</span> <span class="dv">32</span>, <span class="at">doShuffle =</span> <span class="cn">TRUE</span>, <span class="at">Nshuffle =</span> <span class="dv">19</span>, <span class="at">y1 =</span> bear_up, <span class="at">y2 =</span> bear_down, <span class="at">xname =</span> <span class="st">&quot;counting up&quot;</span>, <span class="at">yname =</span> <span class="st">&quot;counting down&quot;</span>)</span></code></pre></div>
+<pre><code>&gt; Calculating diagonal recurrence profiles... 
+&gt; Profile 1 
+&gt; Profile 2 
+&gt; Profile 3 
+&gt; Profile 4 
+&gt; Profile 5 
+&gt; Profile 6 
+&gt; Profile 7 
+&gt; Profile 8 
+&gt; Profile 9 
+&gt; Profile 10 
+&gt; Profile 11 
+&gt; Profile 12 
+&gt; Profile 13 
+&gt; Profile 14 
+&gt; Profile 15 
+&gt; Profile 16 
+&gt; Profile 17 
+&gt; Profile 18 
+&gt; Profile 19 
+&gt; Profile 20</code></pre>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:drp"></span>
+<img src="CSA-Book_files/figure-html/drp-1.png" alt="Diagonal Recurrence Profile produced by function `rp_diagProfile()`" width="99%" />
+<p class="caption">
+Figure 8.4: Diagonal Recurrence Profile produced by function <code>rp_diagProfile()</code>
+</p>
+</div>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="categorical-cross-rqa.html#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co">#cat(&quot;{#fig:drp}&quot;)</span></span></code></pre></div>
+<p>The profile shows there are peaks in recurrent points at the LOS as well as at particular intervals. To be a bit more certain these peaks are real and were not just incidental observations that occurred by chance, one can perform a simple surrogate analysis: One of the time series is randomised, that is, the order in which values appear in the series is shuffled. The CRQA analysis is repeated a number of times and the average of the diagonal recurrence profiles can be used to determine whether a peak is indeed larger than what may be expected based on chance. A one-sided test can be constructed by considering the rank-order of the observed values relative to the shuffled series. If the observed value is the highest among the distribution of <code>20</code> values the p-value is <code>1/20 = .05</code>. A two sided test would require <code>39</code> surrogates, a rank <code>1</code> or <code>40</code> would yield <code>2/40 = .05</code>.</p>
+</div>
+<div id="chromatic-rqa-measures" class="section level3 hasAnchor" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Chromatic RQA measures<a href="categorical-cross-rqa.html#chromatic-rqa-measures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>It is often the case that nominal time series data will consist of just a few categories, for example, the series might represent different behavioural categories coded from video recordings. When the data are transformed into a recurrence matrix all category information is lost, as we are only evaluating <em>whether</em> something recurred or not (not <em>what</em> is recurring).</p>
+<p>There maybe situations in which it is interesting to calculate RQA measures for each individual category. This can be done using so-called <strong>Chromatic RQA</strong> <span class="citation">(cf. <a href="references-1.html#ref-cox2016a" role="doc-biblioref">Cox et al., 2016</a>; <a href="references-1.html#ref-de-jonge-hoekstra2020" role="doc-biblioref">De Jonge-Hoekstra, Van Der Steen, &amp; Cox, 2020</a>)</span>, which has been implemented in <em>casnet</em> through the argument <code>chromatic</code> in the function <code>rp()</code>.</p>
+<p>Below is a simple example of two nominal time series with 3 categories. These data could represent an interpretation of the behaviour of two children interacting with one one another during play. The time series data can be numeric or a character string describing each category which will be assigned a unique number. Note that the recurrence matrix now retains the category numbers, it is no longer a binary matrix.</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="categorical-cross-rqa.html#cb57-1" aria-hidden="true" tabindex="-1"></a>y1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;positive&quot;</span>, <span class="st">&quot;neutral&quot;</span>,  <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;hostile&quot;</span>, <span class="st">&quot;hostile&quot;</span>, <span class="cn">NA</span>, <span class="st">&quot;hostile&quot;</span>,  <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>,  <span class="st">&quot;neutral&quot;</span>)</span>
+<span id="cb57-2"><a href="categorical-cross-rqa.html#cb57-2" aria-hidden="true" tabindex="-1"></a>y2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;hostile&quot;</span>, <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;hostile&quot;</span>, <span class="st">&quot;hostile&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;neutral&quot;</span>)</span>
+<span id="cb57-3"><a href="categorical-cross-rqa.html#cb57-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-4"><a href="categorical-cross-rqa.html#cb57-4" aria-hidden="true" tabindex="-1"></a>RP_chr <span class="ot">&lt;-</span> <span class="fu">rp</span>(<span class="at">y1 =</span> y1, <span class="at">y2 =</span> y2, <span class="at">chromatic =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb57-5"><a href="categorical-cross-rqa.html#cb57-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-6"><a href="categorical-cross-rqa.html#cb57-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Chromatic Recurrence Matrix retains the label information</span></span>
+<span id="cb57-7"><a href="categorical-cross-rqa.html#cb57-7" aria-hidden="true" tabindex="-1"></a>RP_chr</span></code></pre></div>
+<pre><code>&gt; 13 x 13 sparse Matrix of class &quot;dgCMatrix&quot;
+&gt;                                
+&gt;  [1,] . . . . . 3 . . 3 3 3 . .
+&gt;  [2,] 2 . 2 . . . 2 2 . . . 2 2
+&gt;  [3,] 2 . 2 . . . 2 2 . . . 2 2
+&gt;  [4,] . 1 . 1 1 . . . . . . . .
+&gt;  [5,] . 1 . 1 1 . . . . . . . .
+&gt;  [6,] . . . . . . . . . . . . .
+&gt;  [7,] . 1 . 1 1 . . . . . . . .
+&gt;  [8,] 2 . 2 . . . 2 2 . . . 2 2
+&gt;  [9,] . . . . . 3 . . 3 3 3 . .
+&gt; [10,] . . . . . 3 . . 3 3 3 . .
+&gt; [11,] . . . . . 3 . . 3 3 3 . .
+&gt; [12,] . . . . . 3 . . 3 3 3 . .
+&gt; [13,] 2 . 2 . . . 2 2 . . . 2 2</code></pre>
+<p>When the matrix is plotted using <code>rp_plot()</code> the categories will have different colours in the plot and a legend will be added with the category names.</p>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="categorical-cross-rqa.html#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rp_plot</span>(RP_chr, <span class="at">plotDimensions =</span> <span class="cn">TRUE</span>, <span class="at">drawGrid =</span> <span class="cn">TRUE</span>, <span class="at">courseGrain =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:RPchroma"></span>
+<img src="CSA-Book_files/figure-html/RPchroma-1.png" alt="Chromatic Recurrence Plot" width="99%" />
+<p class="caption">
+Figure 8.5: Chromatic Recurrence Plot
+</p>
+</div>
+<p>The output of <code>rp_measures())</code> now provides measures for each category label separately.</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="categorical-cross-rqa.html#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rp_measures</span>(RP_chr, <span class="at">anisotropyHV =</span> <span class="cn">TRUE</span>, <span class="at">asymmetryUL =</span> <span class="cn">TRUE</span>, <span class="at">silent =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<pre><code>&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~
+&gt; Chromatic RQA with categories: hostile, neutral, positive
+&gt;  Global Measures
+&gt;          Global Max.points N.points     RR Singular Divergence Repetitiveness
+&gt; hostile  Matrix        169        9 0.0533        7      0.500            6.0
+&gt; neutral  Matrix        169       24 0.1420       20      0.500            7.0
+&gt; positive Matrix        169       20 0.1183       10      0.333            3.1
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;                  Lines N.lines N.points Measure  Rate Mean Max.   ENT ENT_rel
+&gt; 1 hostile     Diagonal       1        2     DET 0.222 2.00    2 0.000   0.000
+&gt; 2 neutral     Diagonal       2        4     DET 0.167 2.00    2 0.000   0.000
+&gt; 3 positive    Diagonal       4       10     DET 0.500 2.50    3 0.693   0.270
+&gt; 4 hostile     Vertical       3        6   V LAM 0.667 2.00    2 0.000   0.000
+&gt; 5 neutral     Vertical       6       12   V LAM 0.500 2.00    2 0.000   0.000
+&gt; 6 positive    Vertical       4       16   V LAM 0.800 4.00    4 0.000   0.000
+&gt; 7 hostile   Horizontal       3        6   H LAM 0.667 2.00    2 0.000   0.000
+&gt; 8 neutral   Horizontal       8       16   H LAM 0.667 2.00    2 0.000   0.000
+&gt; 9 positive  Horizontal       5       15   H LAM 0.750 4.00    3 0.000   0.000
+&gt; 10 hostile   V+H Total       6       12 V+H LAM 0.667 2.00    2 0.000   0.000
+&gt; 11 neutral   V+H Total      14       28 V+H LAM 0.583 2.00    2 0.000   0.000
+&gt; 12 positive  V+H Total       9       31 V+H LAM 0.775 3.44    4 0.687   0.268
+&gt;               CoV
+&gt; 1 hostile      NA
+&gt; 2 neutral   0.000
+&gt; 3 positive  0.231
+&gt; 4 hostile   0.000
+&gt; 5 neutral   0.000
+&gt; 6 positive  0.000
+&gt; 7 hostile   0.000
+&gt; 8 neutral   0.000
+&gt; 9 positive  0.000
+&gt; 10 hostile  0.000
+&gt; 11 neutral  0.000
+&gt; 12 positive 0.153
+&gt; 
+&gt; 
+&gt; Horizontal/Vertical line anisotropy
+&gt; 
+&gt;                      Ratio N.lines N.points Measure    Rate   Mean    Max ENT
+&gt; hostile  H/V line measures  0.0000    1.000     LAM  0.0000  0.000  0.000 NaN
+&gt; neutral  H/V line measures  0.1429    1.333     LAM  0.1429  0.000  0.000 NaN
+&gt; positive H/V line measures -0.0323    0.938     LAM -0.0323 -0.143 -0.143 NaN
+&gt; 
+&gt; 
+&gt; Upper/Lower triangle asymmetry
+&gt; 
+&gt;  Global Measures
+&gt;           Global.Ratio N.points     RR Singular Divergence Repetetiveness
+&gt; hostile  U/L of points   -0.455 -0.455   -0.714          0       -0.33333
+&gt; neutral  U/L of points    0.037  0.037   -0.130        NaN            NaN
+&gt; positive U/L of points   -0.130 -0.130    0.000          0       -0.00478
+&gt; 
+&gt; 
+&gt;  Line-based Measures
+&gt;            Line.ratio N.lines N.points Measure   Rate    Mean    Max     ENT
+&gt; 1 hostile     D lines   0.000    1.000     DET  0.000  0.0000  0.000     NaN
+&gt; 2 neutral     D lines   1.000      Inf     DET  1.000  1.0000  1.000     NaN
+&gt; 3 positive    D lines  -0.231    0.625     DET -0.231 -0.0323  0.000  0.0426
+&gt; 4 hostile     V lines  -0.333    0.500   V LAM -0.333  0.0000  0.000     NaN
+&gt; 5 neutral     V lines   0.667    5.000   V LAM  0.667  0.0000  0.000     NaN
+&gt; 6 positive    V lines  -0.444    0.385   V LAM -0.444 -0.1304 -0.143 -0.2000
+&gt; 7 hostile     H lines  -0.333    0.500   H LAM -0.333  0.0000  0.000     NaN
+&gt; 8 neutral     H lines   0.250    1.667   H LAM  0.250  0.0000  0.000     NaN
+&gt; 9 positive    H lines   0.000    1.000   H LAM  0.000  0.0000  0.000  0.0000
+&gt; 
+&gt; ~~~o~~o~~casnet~~o~~o~~~</code></pre>
+
+</div>
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="categorical-auto-rqa.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="lvSystem.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
