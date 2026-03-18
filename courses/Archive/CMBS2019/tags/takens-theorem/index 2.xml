@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takens&#39; theorem on Complexity Methods for Behavioural Science</title>
+    <link>https://complexity-methods.github.io/tags/takens-theorem/</link>
+    <description>Recent content in Takens&#39; theorem on Complexity Methods for Behavioural Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    
+	<atom:link href="https://complexity-methods.github.io/tags/takens-theorem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Day 3 schedule</title>
+      <link>https://complexity-methods.github.io/days/day3/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://complexity-methods.github.io/days/day3/</guid>
+      <description>Today&amp;rsquo;s Topics:  Delay-embedding Phase/State space reconstruction Recurrence Quantification Analysis Early Warning Signals (EWS) of phase transitions
+  Tentative time table for Day 3    When What Who Topics Notes     09.00-10.30 Quantifying temporal patterns in unordered categorical time series data FH Categorical Auto-Recurrence Quantification Analysis    10.30-11.00 Coffee/Tea      11.00-12.00 Assignments  Categorical RQA, Surrogate analysis    12.</description>
+    </item>
+    
+  </channel>
+</rss>

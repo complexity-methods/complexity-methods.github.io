@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prepare on Complexity Methods for Behavioural Science</title>
+    <link>https://complexity-methods.github.io/categories/prepare/</link>
+    <description>Recent content in Prepare on Complexity Methods for Behavioural Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    
+	<atom:link href="https://complexity-methods.github.io/categories/prepare/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Preparation</title>
+      <link>https://complexity-methods.github.io/prework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://complexity-methods.github.io/prework/</guid>
+      <description>This is the companion site for the Radboud University Summerschool: Complexity Methods for Behavioural Science: A toolbox for studying change.
+Pre-course literature It will be helpful to read the following articles before the first day of the course:
+ Molenaar, P. C., &amp;amp; Campbell, C. G. (2009). The new person-specific paradigm in psychology. Current directions in psychological science, 18(2), 112-117. Kello, C. T., Brown, G. D., Ferrer-i-Cancho, R., Holden, J.</description>
+    </item>
+    
+  </channel>
+</rss>
